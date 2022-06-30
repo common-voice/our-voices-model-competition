@@ -2,9 +2,9 @@
 
 # Our voices model competition
 
-- What we are looking for ?
-- Deadlines
-- Rules
+- [What we are looking for ?](https://github.com/common-voice/our-voices-model-competition/edit/main/README.md#what-are-we-looking-for)
+- [Deadlines](https://github.com/common-voice/our-voices-model-competition/edit/main/README.md#deadlines)
+- [Rules](https://github.com/common-voice/our-voices-model-competition/blob/main/submit/rules.md)
 
 ## About 
 
@@ -15,7 +15,9 @@ We are running a model and methods competition with three broad themes, plus an 
 
 Our competition open on **September 15th** and runs till **October 12th**
 
-Start today by [registering your interest with this form](https://mozillafoundation.typeform.com/to/TSTzyijc), and you'll receive a participant pack with guidance, resources, advice and more to help you. Please read the [full rules] if you are considering applying. 
+Start today by [registering your interest with this form](https://mozillafoundation.typeform.com/to/TSTzyijc), and you'll receive a participant pack with guidance, resources, advice and more to help you. 
+
+Please read the [full rules](https://github.com/common-voice/our-voices-model-competition/blob/main/submit/rules.md) if you are considering applying. 
 
 ## What are we looking for?
 
