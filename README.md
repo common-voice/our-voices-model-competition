@@ -31,6 +31,15 @@ Outside of this, we are being deliberately open-ended. However, here are some il
 |  Open         | Exciting DEI work primarily using Common Voice that doesn't fit into the categories above   |
 
 
+Judging will be done by Sponsor or its designees, who shall have sole discretion in determining winners based on the following equally weighted criteria:
+
+- Word Error Rate (“WER”) - how many word recognition mistakes your model makes when used on a fresh dataset
+- WER Score when balanced by gender or Accent demographics (as per competition theme)
+- Utility - this is a judgment scoring by panelists evaluating how effective, original and useful your method or measure would be
+- Social need / ecosystem value - whether this model adds value to the universe of other models for the same language. We do not disqualify submissions that are not open source, but when considering ecosystem value-add within the wider rubric, we will consider the license under which your work is available.
+- Deployability rating - this is a judgment scoring by panelists evaluating how easy would this be to install in an application
+- Environmental impact rating (via GPU usage) - this has two components - expert panel rating plus required provision of their processing stats - aka how 'hungry' is your model? is it written to be efficient?
+
 ---
 
 ## How are you making sure it's easy for all languages to participate?
