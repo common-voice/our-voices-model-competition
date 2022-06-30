@@ -73,13 +73,13 @@ Judging will be done by Sponsor or its designees, who shall have sole discretion
 
 Who are the judging panel?
 
-- Professor Francis Tyers - Computational Linguistics Advisor, Mozilla Foundation & Academic, University of Indiana Indiana
-- Dr Vitaly Lavrukhin - Principal Applied Research Scientist, NVIDIA
-- Wiebke Hutiri- PhD Candidate at Delft University of Technology - Fairness in Voice Tech
-- Dr Abeba Birhane - AI Fellow Mozilla
-- Rebecca Ryakitimbo - Community Fellow, Kiswahili
-- Britone Mwasaru - Community Fellow, Kiswahili
-- Dr Josh Meyers- Co-Founder, Coqui
-- Stefania Delprete - Data Scientist and Italian MCV Community Rep
-- Kathy Reid - PhD Candidate at Auatralia National University - Bias in Speech Tech, Open Source
+- [Professor Francis Tyers](https://linguistics.indiana.edu/about/faculty/tyers-francis.html) - Computational Linguistics Advisor, Mozilla Foundation & Academic, University of Indiana Indiana
+- [Dr Vitaly Lavrukhin](https://developer.nvidia.com/blog/author/vlavrukhin/) - Principal Applied Research Scientist, NVIDIA
+- [Wiebke Hutiri](https://www.tudelft.nl/en/tpm/about-the-faculty/departments/engineering-systems-and-services/people/phd-candidates/w-wiebke-toussaint/) - PhD Candidate at Delft University of Technology - Fairness in Voice Tech
+- [Dr Abeba Birhane](https://abebabirhane.github.io/) - AI Fellow Mozilla
+- [Rebecca Ryakitimbo](https://rebeccaryakitimbo.africa/) - Community Fellow, Kiswahili
+- [Britone Mwasaru](https://foundation.mozilla.org/en/blog/jina-ni-britone-mwasaru-the-name-is-britone-mwasaru/) - Community Fellow, Kiswahili
+- [Dr Josh Meyers](https://www.linkedin.com/in/josh-r-meyer)- Co-Founder, Coqui
+- [Stefania Delprete](http://stefaniadelprete.com/) - Data Scientist and Italian MCV Community Rep
+- [Kathy Reid](https://cybernetics.anu.edu.au/people/kathy-reid/) - PhD Candidate at Auatralia National University - Bias in Speech Tech, Open Source
 - Gabriel Habayeb - Senior Data Engineer, Mozilla Foundation
