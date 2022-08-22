@@ -2,7 +2,6 @@
 
 <!-- Thanks for making a contribution to Common Voice Our Voices Competiton, to help us review your submission please fill out this form -->
 
-
 ### Description 
 
 <!-- Please describe below what your submission is about -->
