@@ -79,7 +79,7 @@ Who are the judging panel?
 - [Dr Abeba Birhane](https://abebabirhane.github.io/) - AI Fellow Mozilla
 - [Rebecca Ryakitimbo](https://rebeccaryakitimbo.africa/) - Community Fellow, Kiswahili
 - [Britone Mwasaru](https://foundation.mozilla.org/en/blog/jina-ni-britone-mwasaru-the-name-is-britone-mwasaru/) - Community Fellow, Kiswahili
-- [Dr Josh Meyers](https://www.linkedin.com/in/josh-r-meyer)- Co-Founder, Coqui
+- [Dr Josh Meyer](https://www.linkedin.com/in/josh-r-meyer)- Co-Founder, Coqui
 - [Stefania Delprete](http://stefaniadelprete.com/) - Data Scientist and Italian MCV Community Rep
 - [Kathy Reid](https://cybernetics.anu.edu.au/people/kathy-reid/) - PhD Candidate at Auatralia National University - Bias in Speech Tech, Open Source
 - Gabriel Habayeb - Senior Data Engineer, Mozilla Foundation
