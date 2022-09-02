@@ -2,9 +2,9 @@
 
 # Our voices model competition
 
-- [What we are looking for ?](https://github.com/common-voice/our-voices-model-competition/edit/main/README.md#what-are-we-looking-for)
-- [Deadlines](https://github.com/common-voice/our-voices-model-competition/edit/main/README.md#deadlines)
-- [Rules](https://github.com/common-voice/our-voices-model-competition/blob/main/submit/rules.md)
+- [What we are looking for ?](https://github.com/common-voice/our-voices-model-competition/blob/main/README.md#what-are-we-looking-for)
+- [Deadlines](https://github.com/common-voice/our-voices-model-competition/blob/main/README.md#deadlines)
+- [Rules](https://github.com/common-voice/our-voices-model-competition/blob/main/submit/RULES.md)
 
 ## About 
 
