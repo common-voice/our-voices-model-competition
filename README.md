@@ -11,13 +11,15 @@
 We want to see - and incentivise! - great diversity, equity and inclusion-conscious work being done with the Common Voice dataset.
 We are running a model and methods competition with three broad themes, plus an open category.
 
-### Register your intrest 
-
-Our competition open on **September 15th** and runs till **October 12th**
+### Register your interest 
 
 Start today by [registering your interest with this form](https://mozillafoundation.typeform.com/to/TSTzyijc), and you'll receive a participant pack with guidance, resources, advice and more to help you. 
 
 Please read the [full rules](https://github.com/common-voice/our-voices-model-competition/blob/main/submit/rules.md) if you are considering applying. 
+
+## Participant packs
+
+Localised versions of the participant packs can be found on our [Google Drive](https://drive.google.com/drive/u/0/folders/1rmJedUn5qdLLLr9rSb_pL2Q-qvlxMPAc).
 
 ## What are we looking for?
 
