@@ -3,7 +3,7 @@
 # Our voices model competition
 
 - [What we are looking for ?](https://github.com/common-voice/our-voices-model-competition/blob/main/README.md#what-are-we-looking-for)
-- [Deadlines](https://github.com/common-voice/our-voices-model-competition/blob/main/README.md#deadlines)
+- [Participant packs](https://github.com/common-voice/our-voices-model-competition/blob/main/README.md#participant-packs)
 - [Rules](https://github.com/common-voice/our-voices-model-competition/blob/main/submit/RULES.md)
 
 ## About 
