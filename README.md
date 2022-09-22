@@ -53,22 +53,6 @@ Judging will be done by Sponsor or its designees, who shall have sole discretion
 - We are creating a flexible, holistic rubric that makes it possible for judges to look at ecosystem value-add factors beyond performance metrics like Word Error Rate
 - For marginalised communities who have governance concerns about releasing their model under an open source license, they are welcome to submit with an explanation to that effect, and this will be considered accordingly
 
-## Deadlines 
-
-**July 6th** MCV 10 released
-
-**July-September** Teams evaluate the data, then mobilise to grow and enhance datasets as needed for their ideas. There will also be changes to ask questions of the MCV team via an Ask Me Anything.
-
-**September 14th** MCV 11 released
-
-**September 15th** Competition opens
-
-**October 12th** Competition closes
-
-**Mid October (date TBC)** Judges meet, agree and Mozilla notifies winners
-
-**Mid-Late October (date TBC** Winners announcement ceremony with demos at Speech Summit
-
 ## Our judges 
 
 Who are the judging panel?
@@ -92,3 +76,4 @@ In order to submit your code for the competition, you should do the following:
 - Create a new directory in a subdirectory of [submit/](https://github.com/common-voice/our-voices-model-competition/tree/main/submit) that corresponds to the category you want to submit in. 
 - Commit and push your code to that subdirectory in your fork.
 - Open a pull request to this repository.
+- You must then **make your final submission** using [this form](https://mozillafoundation.typeform.com/to/oBKEMY1E). Submissions which are not submitted via the Typeform will **not be able to be considered**.
