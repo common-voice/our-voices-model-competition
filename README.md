@@ -15,7 +15,7 @@ We are running a model and methods competition with three broad themes, plus an 
 
 Start today by [registering your interest with this form](https://mozillafoundation.typeform.com/to/TSTzyijc), and you'll receive a participant pack with guidance, resources, advice and more to help you. 
 
-Please read the [full rules](https://github.com/common-voice/our-voices-model-competition/blob/main/submit/rules.md) if you are considering applying. 
+Please read the [full rules](https://github.com/common-voice/our-voices-model-competition/blob/main/submit/RULES.md) if you are considering applying. 
 
 ## Participant packs
 
