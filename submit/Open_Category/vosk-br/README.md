@@ -40,7 +40,7 @@ This kind of workshop could have the added benefit to bring a teenager demograph
 
 As of today, the Common Voice dataset is by far the most diverse and readily available dataset you can find on the Internet for the Breton language. While it is slowly growing, it is still quite small.  
 It contains relatively few written sentences with a total of 7831 sentences, of which 9% are duplicates, that leaves 7111 unique sentences.
-French words, or even whole sentences, can be found in the corpus. A quick search of the characters 'é' or 'è' (quite common in french but never found in Breton) shows a few French sentences like "Les antiques croyances des peuples amérindiens" or "Légendes ?". You can find some of them in the `reported` set.  
+French words, or even whole sentences, can be found in the corpus. A quick search of the characters '_é_' or '_è_' (quite common in french but never found in Breton) shows a few French sentences like "_Les antiques croyances des peuples amérindiens_" or "_Légendes ?_". You can find some of them in the `reported` set.  
 MCV11 Breton dataset suffers from a lack of validation, with usually only 2 up votes (or 3 up votes in rare cases). Funnily, the two previous French sentences have been validated with two up votes as well !
 
 To improve the models accuracy, those sentences, along with others, have been manually put in file `blacklisted_sentences.txt` to be filtered out before training. A few speakers have been filtered out as well (found in file `blacklisted_speakers`) on the basis of empty or unintelligible recordings.
@@ -49,7 +49,7 @@ To improve the models accuracy, those sentences, along with others, have been ma
 ### Train dataset
 
 The training set consists of the filtered `train.tsv` dataset, with 7 speakers adding up to 2h07 of audio data. The gender distribution is very skewed as it consists of male speakers exclusively (the gender of 2 of the 7 speakers was unspecified but after listening to the audio recordings it was guessed that they were male).  
-This corpus is made of 2636 sentences with a vocabulary size of 2517 unique words.
+**This corpus is made of 2636 sentences with a vocabulary size of 2517 unique words**.
 
 
 ### Test dataset
@@ -57,8 +57,8 @@ This corpus is made of 2636 sentences with a vocabulary size of 2517 unique word
 The test set consists of the filtered `test.tsv` dataset, with 108 speakers (112 before filtering) adding up to 1h53 of audio data. The gender distribution is better than in the training set, but still far from parity, with 29 male speakers (26.9%), 8 female speakers (7.4%) and 75 speakers of unspecified gender (65.7%).  
 After listening to all speakers with unspecified gender, it was guessed that the actual share of male speakers was 69.4% and 30.6% for female speakers.  
 In terms of audio data length, the guessed gender distribution is slightly better with 66.3% male audio data and 33.7% female audio data.
-This corpus is made of 2101 sentences with a vocabulary size of 2251 unique words.
-Only 35.8% of all words (training + test corpora) are found in both dataset's vocabulary, or in other word only 55.8% of the test corpus vocabulary can be found in the train corpus.
+**This corpus is made of 2101 sentences with a vocabulary size of 2251 unique words**.
+Only 35.8% of all words (training + test corpora) are found in both dataset's vocabulary, or in other word **only 55.8% of the test corpus vocabulary can be found in the train corpus**.
 ![Vocabulary intersection](pres/voc_intersection.png)
 
 
@@ -104,7 +104,7 @@ It is comprised of a collection of subfolders that can each be treated as indepe
 
 Rather than merging all data in a single set, `unpack` divide the subsets by speaker-id. `unpack` also discard speakers and sentences found in files `blacklisted_speakers.txt` and `blacklisted_sentences.txt` respectively.
 
-Once the `train` and `test` folder are build by `unpack`, the next stage is to run `build_kaldi_files.py` script for both `train` and `test` folders.
+Once the `train` and `test` folder are build by `unpack`, the next stage is to run `build_kaldi_files.py` script for both `train` and `test` folders.  
 This script applies some spelling corrections to the text files using file `corrected.txt` as a reference. The spelling mistakes were found with the help of [Breton Hunspell](https://github.com/Drouizig/hunspell-br) spell checker by running the script `verify_text_files.py` and were manually added to `corrected.txt`. Other text normalization techniques are applied at this stage : case normalization, acronym identification, proper noun identification, special symbol removal and number to word rewritting.  
 The whole dataset is then formatted to a Kaldi compatible structure and put in the folder `data`.
 
@@ -119,7 +119,7 @@ The last step is to copy the `data` folder created by `build_kaldi_files.py` in 
 
 ## Hyperparameters fine-tuning
 
-In order to better adjust the acoustic model's hyperparameters, six models with varying number of TDNN hidden layers and dimensions were compared.
+In order to better adjust the acoustic model's hyperparameters, six models with varying number of TDNN hidden layers and dimensions were compared.  
 The training of those models were done with the same methodology as previously described.  
 Due to lack of time I couldn't play with the number of epochs but I hope to try that soon.
 
@@ -138,29 +138,14 @@ Along with the MCV11 test dataset, the trained models were tested on 33 minutes 
 
 **The different WER scores obtained doesn't show a significant difference in performance between the models, but we were able to reduce the model footprint on disk by 22%** (from 41Mo for the baseline model to 32Mo for the shorter-skinny model). We can expect a similar reduction of CPU/GPU resources when decoding but I wasn't able to measure it.
 
-MCV11 baseline
-    MCV11 test set      WER 56.9%
-    Bali Breizh         WER 82.4%, CER 51.5%
-
-MCV11 short
-    MCV11 test set      WER 55.6%
-    Bali Breizh         WER 83.8%, CER 51.7%
-
-MCV11 shorter
-    MCV11 test set      WER 57.5%
-    Bali Breizh         WER 84.0%, CER 51.1%
-    
-MCV11 skinny
-    MCV11 test set      WER 57.6%
-    Bali Breizh         WER 82.5%, CER 51.2%
-
-MCV11 short-skinny
-    MCV11 test set      WER 56.6%
-    Bali Breizh         WER 83.4%, CER 51.9%
-
-MCV11 shorter-skinny
-    MCV11 test set      WER 55.8%
-    Bali Breizh         WER 83.3%, CER 51.0%
+| Model | MCV11 test set | Bali Breizh |
+| ----- | --------------:| -----------:|
+| MCV11 baseline | WER 56.9% | WER 82.4%, CER 51.5% |
+| MCV11 short    | WER 55.6% | WER 83.8%, CER 51.7% |
+| MCV11 shorter  | WER 57.5% | WER 84.0%, CER 51.1% |
+| MCV11 skinny   | WER 57.6% | WER 82.5%, CER 51.2% |
+| MCV11 short-skinny | WER 56.6% | WER 83.4%, CER 51.9% |
+| MCV11 shorter-skinny | WER 55.8% | WER 83.3%, CER 51.0% |
 
 
 ## Augmenting the Language Model
@@ -190,14 +175,6 @@ Augmenting the LM with an external corpus grows the model size on disk, from 41M
 | MCV11 small-corpus | WER 54.7% | WER 74.6%, CER 46.3% |
 | MCV11 big-corpus   | WER 52.7% | WER 72.0%, CER 45.1% |
 
-MCV11 small-corpus
-    MCV11 test set      WER 54.7%
-    Bali Breizh         WER 74.6%, CER 46.3%
-
-MCV11 big-corpus
-    MCV11 test set      WER 52.7%
-    Bali Breizh         WER 72.0%, CER 45.1%
-
 
 ## Gender bias assessment
 
@@ -214,6 +191,18 @@ Although we can see that the score varies between the 4 tested models, it is not
 For the sake of completeness I've also tested the models on a dataset of more than 7 hours (59% of female voice and 41% of male voice) of manually aligned audio and transcription, coming from the Breton movie dubbing company for the most part. It consist of Breton language movies, interviews on TV shows, radio broadcasts, children and adult audiobooks and audio articles about culture and news in Brittany.
 
 ### Results
+
+| Model | MCV11 test set |  | Bali Breizh |  |
+|       | female | male | female | male |
+| ----- | --------------:| -----------:|
+| MCV11 baseline | WER 57.4%, CER 32.1% | WER 56.0% | WER 78.1%, CER 49.1% | WER 81.4%, CER 48.8% |
+
+
+| MCV11 short    | WER 55.6% | WER 83.8%, CER 51.7% |
+| MCV11 shorter  | WER 57.5% | WER 84.0%, CER 51.1% |
+| MCV11 skinny   | WER 57.6% | WER 82.5%, CER 51.2% |
+| MCV11 short-skinny | WER 56.6% | WER 83.4%, CER 51.9% |
+| MCV11 shorter-skinny | WER 55.8% | WER 83.3%, CER 51.0% |
 
 MCV11 baseline
     MCV11 test set female   WER 57.4%, CER 32.1%
