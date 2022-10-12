@@ -59,6 +59,7 @@ After listening to all speakers with unspecified gender, it was guessed that the
 In terms of audio data length, the guessed gender distribution is slightly better with 66.3% male audio data and 33.7% female audio data.
 **This corpus is made of 2101 sentences with a vocabulary size of 2251 unique words**.
 Only 35.8% of all words (training + test corpora) are found in both dataset's vocabulary, or in other word **only 55.8% of the test corpus vocabulary can be found in the train corpus**.
+
 ![Vocabulary intersection](pres/voc_intersection.png)
 
 
@@ -139,7 +140,7 @@ Along with the MCV11 test dataset, the trained models were tested on 33 minutes 
 **The different WER scores obtained doesn't show a significant difference in performance between the models, but we were able to reduce the model footprint on disk by 22%** (from 41Mo for the baseline model to 32Mo for the shorter-skinny model). We can expect a similar reduction of CPU/GPU resources when decoding but I wasn't able to measure it.
 
 | Model | MCV11 test set | Bali Breizh |
-| ----- | --------------:| -----------:|
+| ----- | -------------- | ----------- |
 | MCV11 baseline | WER 56.9% | WER 82.4%, CER 51.5% |
 | MCV11 short    | WER 55.6% | WER 83.8%, CER 51.7% |
 | MCV11 shorter  | WER 57.5% | WER 84.0%, CER 51.1% |
@@ -171,7 +172,8 @@ Augmenting the LM with an external corpus grows the model size on disk, from 41M
 ### Results
 
 | Model | MCV11 test set | Bali Breizh |
-| ----- | --------------:| -----------:|
+| ----- | -------------- | ----------- |
+| MCV11 baseline | WER 56.9% | WER 82.4%, CER 51.5% |
 | MCV11 small-corpus | WER 54.7% | WER 74.6%, CER 46.3% |
 | MCV11 big-corpus   | WER 52.7% | WER 72.0%, CER 45.1% |
 
@@ -194,7 +196,7 @@ For the sake of completeness I've also tested the models on a dataset of more th
 
 | Model | MCV11 test set |  | Bali Breizh |  |
 |       | female | male | female | male |
-| ----- | --------------:| -----------:|
+| ----- | ------ | ------ | ----- | ----- |
 | MCV11 baseline | WER 57.4%, CER 32.1% | WER 56.0% | WER 78.1%, CER 49.1% | WER 81.4%, CER 48.8% |
 
 
@@ -251,10 +253,10 @@ A desktop version should follow soon. In the meantime, a simple setup using VOSK
 
 ## References
 
-* [^1]<https://en.wikipedia.org/wiki/List_of_endangered_languages_in_Europe#France>
-* [^2][TMO Régions, 2018](https://www.bretagne.bzh/app/uploads/Etude-sur-les-langues-de-bretagne.pdf)
-* [^3]<https://en.wikipedia.org/wiki/Bro_Gwened#Dialect>
-* [^4]<https://en.wikipedia.org/wiki/Diwan_(school)>
-* [^5]<https://www.radiobreizh.bzh/radio>
-* [^6]<https://www.dastumedia.bzh/dyn/portal/index.seam?page=dastum.collection>
+* [^1] <https://en.wikipedia.org/wiki/List_of_endangered_languages_in_Europe#France>
+* [^2] [TMO Régions, 2018](https://www.bretagne.bzh/app/uploads/Etude-sur-les-langues-de-bretagne.pdf)
+* [^3] <https://en.wikipedia.org/wiki/Bro_Gwened#Dialect>
+* [^4] <https://en.wikipedia.org/wiki/Diwan_(school)>
+* [^5] <https://www.radiobreizh.bzh/radio>
+* [^6] <https://www.dastumedia.bzh/dyn/portal/index.seam?page=dastum.collection>
 
