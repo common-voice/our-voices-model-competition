@@ -149,7 +149,7 @@ Along with the MCV11 test dataset, the trained models were tested on 33 minutes 
 | MCV11 shorter-skinny | WER 55.8% | WER 83.3%, CER 51.0% |
 
 
-## Augmenting the Language Model
+## Growing the Language Model
 
 We have seen that vocabularies from the train and test sets did not overlap very well. That would result in poor WER scoring, even with a robust acoustic model. A solution would be to augment the model vocabulary by the addition of an external corpus of sentences. The Wikipedia corpus is an obvious choice for this, even if its lexical domain is far from spontaneous conversation.  
 The most recent dump from br.wikipedia was dowloaded from <https://dumps.wikimedia.org/brwiki/>.
