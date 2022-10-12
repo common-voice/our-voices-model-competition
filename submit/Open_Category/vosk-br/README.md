@@ -6,7 +6,7 @@
 During my childhood I've been attending Diwan schools from kindergarten to high-school. Diwan schools follow the national curriculum but classes are taught in a Breton only environment, with the obvious exception of language classes, where the same immersive rule applies to the target language (i.e. English classes are taught in English only). Pupils are also encouraged to speak in Breton during breaks, outside of the classroom.
 Today, the number of pupils attending Diwan high-school in Carhaix-Plouguer is around 260.  
 Since I'm now living nearby, I've been volunteering for a couple of years in this former high-school of mine, helping science teachers (some of them were classmates) with Python programming and other computer related work. I've been running a computer club for high-schoolers on Wednesday afternoon there as well, with 6 pupils attending this year.  
-Last year I met with an old friend of mine, working for a company dubbing movies in Breton. He told me about his work as a sound engineer and of the hundreds of hours of recorded voice archive with transcription that his company owned. From this conversation sprang the idea to try to build a small STT system as a proof of concept. Although I had no prior knowledge in ASR but with only a CS education and a keen interest in machine learning, I felt excited by the challenge.  
+Last year I met with an old friend of mine, working at [Dizale](https://www.dizale.bzh/), a company dubbing movies in Breton. He told me about his work as a sound engineer and of the hundreds of hours of recorded voice archive with transcription that his company owned. From this conversation sprang the idea to try to build a small STT system as a proof of concept. Although I had no prior knowledge in ASR but with only a CS education and a keen interest in machine learning, I felt excited by the challenge.  
 We are in no way aiming to build a consumer-ready product. This project is motivated by curiosity, self-education, and the hope to build something useful and freely available for anyone to test.
 
 
@@ -188,65 +188,26 @@ We then divide the test dataset by gender with the script `split_by_gender.py`
     $ python3 split_by_gender common_voice/test
 
 This script creates a folder named `gender_splitted` where the dataset will be divided in two subsets for male and female speakers, with audio files and text transcriptions.  
-Although we can see that the score varies between the 4 tested models, it is not by a big margin. The difference is less than 1% for `MCV11_big-corpus`, which is the best overall model of the batch. We also have to consider that there was not a single female speaker in the training data.
+Although we can see that the scores varies between the 4 tested models, with a slight advantage form male speakers, it is not by a big margin. The difference is less than 1% for `MCV11_big-corpus`, which is the best overall model of the batch. We also have to consider that there was not a single female speaker in the training data.
 
-For the sake of completeness I've also tested the models on a dataset of more than 7 hours (59% of female voice and 41% of male voice) of manually aligned audio and transcription, coming from the Breton movie dubbing company for the most part. It consist of Breton language movies, interviews on TV shows, radio broadcasts, children and adult audiobooks and audio articles about culture and news in Brittany.
 
 ### Results
 
-| Model | MCV11 test set |  | Bali Breizh |  |
-|       | female | male | female | male |
-| ----- | ------ | ------ | ----- | ----- |
-| MCV11 baseline | WER 57.4%, CER 32.1% | WER 56.0% | WER 78.1%, CER 49.1% | WER 81.4%, CER 48.8% |
-
-
-| MCV11 short    | WER 55.6% | WER 83.8%, CER 51.7% |
-| MCV11 shorter  | WER 57.5% | WER 84.0%, CER 51.1% |
-| MCV11 skinny   | WER 57.6% | WER 82.5%, CER 51.2% |
-| MCV11 short-skinny | WER 56.6% | WER 83.4%, CER 51.9% |
-| MCV11 shorter-skinny | WER 55.8% | WER 83.3%, CER 51.0% |
-
-MCV11 baseline
-    MCV11 test set female   WER 57.4%, CER 32.1%
-    MCV11 test set male     WER 56.0%
-        +1.4% WER for female
-    Bali Breizh female      WER 78.1%, CER 49.1%
-    Bali Breizh male        WER 81.4%, CER 48.8%
-        +2.3% WER for male
-
-MCV11 shorter-skinny
-    MCV11 test set female   WER 56.6%, CER 31.9%
-    MCV11 test set male     WER 55.1%
-        +1.5% WER for female
-    Bali Breizh female      WER 78.7%, CER 48.3%
-    Bali Breizh male        WER 81.8%, CER 49.6%
-        +3.1 WER for male
-
-
-MCV11 small-corpus
-    MCV11 test set female   WER 56.6%, CER 32.0%
-    MCV11 test set male     WER 53.3%
-        +3.3% for female
-    Bali Breizh female      WER 74.0%, CER 46.7%
-    Bali Breizh male        WER 70.0%, CER 42.1%
-        +4% WER for female 
-
-
-MCV11 big-corpus
-    MCV11 test set female   WER 53.1%, CER 30.6%
-    MCV11 test set male     WER 52.4%
-        +0.7% WER for female
-    Bali Breizh female      WER 74.0%, CER 46.7%
-    Bali Breizh male        WER 70.0%, CER 42.1%
-        +4% WER for female 
+| Model | MCV11 test set |  |  | Bali Breizh |  |  |
+| ----- | ------ | ------ | ----- | ----- | ----- | ----- |
+|       | **female** | **male** | diff |  **female** | **male** | diff |
+| MCV11 baseline | WER 57.4%, CER 32.1% | WER 56.0% | female +1.4% WER | WER 78.1%, CER 49.1% | WER 81.4%, CER 48.8% | male +2.3% WER  |
+| MCV11 shorter-skinny | WER 56.6%, CER 31.9% |  WER 55.1% | female +1.5% WER | WER 78.7%, CER 48.3% | WER 81.8%, CER 49.6% | male +3.1% WER |
+| MCV11 small-corpus | WER 56.6%, CER 32.0% | WER 53.3% | female +3.3% WER | WER 74.0%, CER 46.7% | WER 70.0%, CER 42.1% | female +4% WER |
+| MCV11 big-corpus | WER 53.1%, CER 30.6% | WER 52.4% | female +0.7% WER | WER 74.0%, CER 46.7% | WER 70.0%, CER 42.1% | female +4% WER |
 
 
 ## Going further
 
 The STT models presented here are pretty small and hardly of any use for real cases as they are trained on only 2 hours of audio data.  
 For the past year I've also been aligning by hand (and sometime transcribing) a few hours of audio data provided by my friend working at the movie dubbing company. It is a long and pretty boring task but it allowed us to obtain almost 7 hours of validated and aligned audio data consisting of Breton language movies, interviews on TV shows, radio broadcasts, children and adult audiobooks and audio articles about culture and news in Brittany.  
-Using our hand aligned data as well as Common Voice `validated` set, instead of the `train` set, we were able to train a model with close to 16 hours of voice data. Although we cannot benchmark this model with MCV `test` set anymore (because of data overlap of the `validated` set), we could still measure a WER score of 48.5% on the "Bali Breizh" test. An improvement of almost 33% in performance compared to the best model we trained for this competition (`MCV11_big-corpus` with a WER score of 72% on "Bali Breizh") !  
-I have included the bigger model in folder `models/bzg5` for review purposes but I cannot release the training data. Although my friend and the boss of the Breton movies dubbing company gave me their consent to use their data, it is yet not clear under what kind of license we should release it, or if I can release it. I am yet to get a written agreement for that.  
+Using our hand aligned data as well as Common Voice `validated` set, instead of the `train` set, we were able to train a model with close to 16 hours of voice data. Although we cannot benchmark this model with MCV `test` set anymore (because of data overlap of the `validated` set), we could still measure a WER score of 50.4% on the "Bali Breizh" test. An improvement of 30% in performance compared to the best model we trained for this competition (`MCV11_big-corpus` with a WER score of 72% on "Bali Breizh") !  
+This bigger model can be found [here](https://github.com/gweltou/vosk-bzg-android/tree/bzg/models/src/main/assets/bzg5) but I cannot release the training data. Although my friend and the boss of the Breton movies dubbing company gave me their consent to use their data, it is yet not clear under what kind of license we should release it, or if I can release it. I am yet to get a written agreement for that.  
 With these encouraging results we could try to adapt this bigger model for specific use and ask other people to test it in the wild. With that goal in mind, I've started to develop a rudimentary but easy-to-use application in Java for anyone to try. For now a simple [Android app on github](https://github.com/gweltou/vosk-bzg-android/tree/bzg) is available.  
 A desktop version should follow soon. In the meantime, a simple setup using VOSK and the command line to test the model can be downloaded [here](https://github.com/gweltou/Vosk-bzg).
 
