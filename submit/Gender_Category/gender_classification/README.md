@@ -38,3 +38,19 @@ Sample Output
 >>> class_pred[0]
     'Male'
 ```
+
+To inference whole dataset of commonvoice11 visit `./model_inference.ipynb`. This script will iterate through all data in commonvoice11's directory and assign gender to each `client_id`
+
+
+### Train
+This model trained on 2 datasets
+ - Commonvoice11-thai
+ - Thai-SER https://github.com/vistec-AI/dataset-releases/releases/tag/v1
+Please download these datasets before execute training.
+We utilized Speechbraind to train the model.
+visit https://github.com/speechbrain/speechbrain/tree/main/templates/speaker_id
+
+Annotation files already provide in ./train/manifest
+```py
+python train.py train.yaml
+```
