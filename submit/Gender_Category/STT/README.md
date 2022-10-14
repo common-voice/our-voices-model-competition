@@ -21,14 +21,15 @@ Then, download followings
 ### Model training
 - Model Initiation
 - Change clips type .mp3 to .wav with 16000 sample rate
+
 ```py
 # pretrianed model
-BASE_MODEL = <PRETRAINED_MODEL_PATH>
-processor = Wav2Vec2Processor.from_pretrained(<PROCESSOR_PATH>)
+BASE_MODEL = "./data2vec-thai-pretrained"
+processor = Wav2Vec2Processor.from_pretrained("./processor")
 # import augment
 import sys
-sys.path.append(<WAVAUGMENT_PATH>)
-abs_path_to_clips = <CLIPS_PATH>
+sys.path.append("./WavAugment")
+abs_path_to_clips = "./Methods_and_Measures/commonvoice11/data/clips_wav/" 
 ```
 
 Model that we trained with 3 datasets:
@@ -54,11 +55,11 @@ Model that we trained with upsampling datasets:
 #
 ```py
 #Processor
-self.processor = Wav2Vec2Processor.from_pretrained(<PROCESSOR_PATH>)
+self.processor = Wav2Vec2Processor.from_pretrained("./processor")
 
 # data2vec
 model_path = <MODEL_PATH>
-lm_path = <LM_PATH> 
+lm_path = "./newmm_4gram.bin" 
 
 #Test_set
 cv11_test_paths = [
@@ -66,7 +67,7 @@ cv11_test_paths = [
                  ]
 #clips_path
 audio_paths = [
-              "./clips_wav"
+              "./Methods_and_Measures/commonvoice11/data/clips_wav"
               ]
 
 ```
