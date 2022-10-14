@@ -1,8 +1,7 @@
 # Setting
-MODEL_PATH = "/home/nattanaa/ASR_train"
-MODEL_NAME = "data2vec_finetune_common11_balance_3_added" 
-WANDB_PROJ_NAME = "data2vec_finetune_common11_balance_3_added"
-BASE_MODEL = "/home/kongpolc/asr/models/data2vec-thai-pretrained/1"
+MODEL_NAME = "" # name your new model
+WANDB_PROJ_NAME = "" # create your project name
+BASE_MODEL = <MODEL_PATH> # pretrianed model
 
 import os
 import wandb
@@ -11,13 +10,9 @@ wandb.init(project=WANDB_PROJ_NAME, name=MODEL_NAME)
 
 from datasets import load_dataset, load_metric
 
-mixed_train = load_dataset("/home/nattanaa/ASR_train/cv11.py", "th", split="train+validation")
-mixed_test = load_dataset("/home/nattanaa/ASR_train/cv11.py", "th", split="test")
+mixed_train = load_dataset("./cv11.py", "th", split="train+validation")
+mixed_test = load_dataset("./cv11.py", "th", split="test")
 
-# from datasets import concatenate_datasets
-
-# mixed_train = concatenate_datasets([cv11_train_num, wedo_train_num, faucet_train, cv11_test_num, wedo_test_num])
-# mixed_test = concatenate_datasets([faucet_test])
 
 import re
 from pythainlp.tokenize import word_tokenize
@@ -59,7 +54,7 @@ mixed_test = mixed_test.map(remove_special_characters).map(clean_batch).map(th_t
 
 from transformers import Wav2Vec2Processor
 
-processor = Wav2Vec2Processor.from_pretrained("/home/kongpolc/asr/models/cv7/processor")
+processor = Wav2Vec2Processor.from_pretrained(<PROCESSOR_PATH>)
 
 import torchaudio
 
@@ -97,7 +92,7 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Union
 # import augment
 import sys
-sys.path.append('/home/kongpolc/asr/WavAugment')
+sys.path.append(<WAVAUG_PATH>)
 import augment
 
 @dataclass
@@ -127,9 +122,6 @@ class DataCollatorCTCWithPadding:
                         'rate': 16000}
             random_pitch = lambda: np.random.randint(-200, 200)
             room_size = np.random.randint(0, 50)
-            # time_drop_width = np.random.randint(50, 100)
-            # random_speed = np.random.randint(0, 2)
-            # audio = augment.EffectChain().pitch(random_pitch).reverb(50, 50, room_size).channels().speed(1 + random_speed/10).rate(16000).time_dropout(max_seconds=time_drop_width/1000).apply(torch.Tensor(audio), src_info=src_info, target_info=target_info)
             audio = augment.EffectChain().pitch(random_pitch).channels().rate(16000).apply(torch.Tensor(audio), src_info=src_info, target_info=target_info)
             audio = torch.Tensor(audio)
             audio = self.processor(audio, sampling_rate=16000).input_values
@@ -189,7 +181,7 @@ def compute_metrics(pred):
 from transformers import Data2VecAudioForCTC
 
 # Base model to finetune on top of
-model = Data2VecAudioForCTC.from_pretrained(BASE_MODEL, #"models/data2vec-thai-pretrained/1", #'models/data2vec-thai-finetuned/1/checkpoint-18000', #'models/data2vec-thai-finetuned/2.13_techsauce_knowledges_sad_on_top/checkpoint-11000', #'models/data2vec-thai-finetuned/1/checkpoint-18000', #'models/data2vec-thai-finetuned/2.7/checkpoint-5000',#'models/data2vec-thai-pretrained/1', #"drive/MyDrive/data2vec-thai-pretrained/model-2", ####
+model = Data2VecAudioForCTC.from_pretrained(BASE_MODEL, 
                                             attention_dropout=0.1,
                                             hidden_dropout=0.1,
                                             feat_proj_dropout=0.0,
@@ -205,7 +197,7 @@ model.freeze_feature_extractor()
 from transformers import TrainingArguments
 
 training_args = TrainingArguments(
-  output_dir=os.path.join(MODEL_PATH, MODEL_NAME),
+  output_dir=MODEL_NAME,
   group_by_length=True,
   per_device_train_batch_size=16, #8,
   gradient_accumulation_steps=8, #4,
@@ -235,8 +227,7 @@ trainer = Trainer(
     compute_metrics=compute_metrics,
     train_dataset=mixed_train,
     eval_dataset=mixed_test,
-    tokenizer=processor.feature_extractor,
-    # optimizers=(transformers.AdamW(3e-4, ), transformers.get_cosine_schedule_with_warmup())
+    tokenizer=processor.feature_extractor
 )
 
 trainer.train()

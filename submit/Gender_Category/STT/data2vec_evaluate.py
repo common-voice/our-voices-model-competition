@@ -35,28 +35,6 @@ from datetime import datetime
 
 chars_to_ignore_regex = '[\,\?\.\!\-\;\:\"\“\%\‘\”\�\’\']'
 
-# def remove_special_characters(batch):
-#     return re.sub(chars_to_ignore_regex, '', batch).lower()
-
-# def th_tokenize(batch):
-#     token_str = " ".join(word_tokenize(batch, engine="newmm"))
-#     return ' '.join(token_str.split())
-
-# def clean_word(word):
-#     i = 0
-#     word_result = ""
-#     while i < len(word):
-#         if word[i] == "ํ" and word[i+1] == "า":
-#             word_result += "ำ"
-#             i += 2
-#         if word[i] == "เ" and word[i+1] == "เ":
-#             word_result += "แ"
-#             i += 2
-#         else:
-#             word_result += word[i]
-#             i += 1
-#     return word_result
-
 def remove_special_characters(batch):
     batch["sentence"] = re.sub(chars_to_ignore_regex, '', batch["sentence"]).lower()
     return batch
@@ -84,32 +62,20 @@ def clean_word(word):
 
 def clean_batch(batch):
     batch["sentence"] = clean_word(batch["sentence"])
-    # batch["sentence"] = clean_word(batch["sentence"]).replace(" ", "")
     return batch
 
-# def clean_word(word):
-#     i = 0
-#     word_result = ""
-#     while i < len(word):
-#         if word[i] == "ํ" and word[i + 1] == "า":
-#             word_result += "ำ"
-#             i += 2
-#         else:
-#             word_result += word[i]
-#             i += 1
-#     return word_result
+
 
 class Torch_Speech_Service:
     def __init__(self, model_path, lm_path, device="cpu"):
         # load pretrained processor and model
         print("Initializing model ...")
         self.processor = Wav2Vec2Processor.from_pretrained(
-            "/home/kongpolc/asr/models/cv7/processor" ####
+            <PROCESSOR_PATH> ####
         )
 
         # Choose Model
         original = Data2VecAudioForCTC.from_pretrained(model_path)
-        # original = Wav2Vec2ForCTC.from_pretrained(model_path)
 
         self.model = original.eval()
         self.device = torch.device(device)
@@ -159,8 +125,6 @@ class Torch_Speech_Service:
             result = [self.lm_decoder.decode(lm_logits, beam_width=500)]
         else:
             predicted_ids = torch.argmax(logits, dim=-1)
-            # result = " ".join(self.processor.tokenizer.convert_ids_to_tokens(predicted_ids[0].tolist())) ####
-            # print(" ".join(self.processor.tokenizer.convert_ids_to_tokens(predicted_ids[0].tolist()))) ####
             result = self.processor.batch_decode(predicted_ids)
 
         return result
@@ -172,14 +136,9 @@ class PredictFactory():
     def get_predict_func(self, do_postprocess=True):
 
         def predict(path):
-            # try:
-            #path =path.replace('clips','clips_wav')
             path =path.replace('mp3','wav')
             print(path)
-            predict = self.speech_service.predict(audio_file=path, do_postprocess=do_postprocess)[0] #.replace(" ","") ####
-            # # except:
-            #     print('\n---- Prediction error ----\n', path)
-            #     return ''
+            predict = self.speech_service.predict(audio_file=path, do_postprocess=do_postprocess)[0] 
             try:
                 predict = clean_word(predict)
             except:
@@ -206,14 +165,9 @@ def evaluate(paths, references, speech_service, do_postprocess=True, tokenize_en
     clean_references = clean_references.apply(th_tokenize, axis=1)
     # print('\n\n------Ref------\n', clean_references)
     clean_references = list(clean_references['sentence'])
-    genders = list(cv7_test_pd.gender)
+    genders = list(cv11_test_pd.gender)
     # print('\n\n------Listed Ref------\n', clean_references)
     cer_result = cer.compute(predictions=predicts, references=clean_references)
-    
-    # clean_references = [word_tokenize(data, engine=tokenize_engine) for data in clean_references]
-    # clean_references = [" ".join(data) for data in clean_references]
-    # predicts = [word_tokenize(data, engine=tokenize_engine) for data in predicts]
-    # predicts = [" ".join(data) for data in predicts]
     wer_result = wer.compute(predictions=predicts, references=clean_references)
     
     wer_results = []
@@ -264,108 +218,49 @@ def compare(label, pred):
 # Settings
 NUM_WORKERS = 4
 # data2vec
-model_path = "/home/nattanaa/ASR_train/data2vec_finetune_common11_balance_3_added/checkpoint-29500" #"models/data2vec-thai-finetuned/2.6.2_techsauce_knowledges_sad_on_top_th/checkpoint-10500" #"models/data2vec-thai-finetuned/2.7.1_amz_bilingual/checkpoint-7500" #"models/data2vec-thai-finetuned/2.4.1_all_except_wang/checkpoint-37500" #"models/data2vec-thai-finetuned/2.6.1_techsauce_knowledges_sad_on_top/checkpoint-8500" #"models/data2vec-thai-finetuned/2.6_techsauce_knowledges_sad_on_top/checkpoint-19000" #"models/data2vec-thai-finetuned/1/checkpoint-18000"
-# # wav2vec2
-# model_path = "/home/kongpolc/asr/models/wav2vec2-finetuned/4/WEDO_mixed_2_cp8000"
+model_path = <MODEL_PATH>
+lm_path = <LM_PATH> 
 
-lm_name = "/home/kongpolc/asr/models/newmm_4gram.bin" #"WEDO_common_tech_sad_scg_wedo.bin"
-lm_path = os.path.join("models", lm_name) #"models/newmm_4gram.bin" # "models/WEDO_common_tech.bin"
 
 speech_service = Torch_Speech_Service(model_path, lm_path, "cuda")
 
-# cv7_test_paths = [
-#                   "../data/smart_home/en-th/techsauce_demo/test2.csv",
-#                   "../data/company_knowledge/scg_knowledge/test2.csv",
-#                   "../data/company_knowledge/wedo_knowledge/test2.csv",
-#                  "../data/sad_intent/test_normal_2.csv",
-#                  # "../data/nlp_pilot_clean/test_3_cleaned_with_source.csv",
-#                  "../data/cv-corpus-9.0-2022-04-27-16000Hz/th/cv9_diff_test_cleaned_wav.csv",
-#                  # "../data/smart_home/en-th/amazon_massive_th/test2_bilingual.csv",
-#                  "../data/roojai_line/roojai_line.csv"
-#                  ]
-
-#audio_paths = [
-#              "/home/shared/commonvoice11/data/clips_wav"]
-#               "../data/company_knowledge/scg_knowledge/clips",
-#               "../data/company_knowledge/wedo_knowledge/clips",
-#               "../data/sad_intent/clips",
-#               # "../data/nlp_pilot_clean/STT-Pilot-Dataset/pilot-voice-data/wav",
-#               "../data/cv-corpus-9.0-2022-04-27-16000Hz/th/clips",
-#               # "../data/smart_home/en-th/amazon_massive_th/clips",
-#               "../data/roojai_line/clips"
-#               ]
-
-# TH 
-#df_dev= pd.read_csv("/home/nattanaa/ASR_gender/dev_cleaned.tsv",sep='\t')
-#df_test= pd.read_csv("/home/nattanaa/ASR_gender/test_cleaned.tsv",sep='\t')
-#df_train= pd.read_csv("/home/nattanaa/ASR_gender/train_cleaned.tsv",sep='\t')
-#df_common11=pd.concat([df_dev, df_test,df_train], ignore_index=True)
-#df_common11_val_clean=pd.read_csv("/home/shared/commonvoice11/annotation/regular_split/validated_cleaned.tsv",sep='\t')
-
-# converting df file into csv
-# df_common11_val_clean.to_csv('common11_full.csv',index=False)
-
-cv7_test_paths = [
-                  "/home/nattanaa/ASR_train/mozilla/normal/normal_test.csv"
+cv11_test_paths = [
+                  "./test.csv"
                  ]
 
 audio_paths = [
-              "/home/shared/commonvoice11/data/clips_wav"
+              "./clips_wav"
               ]
 
-for i in range(len(cv7_test_paths)):
-    if not os.path.exists(cv7_test_paths[i]):
-        raise FileNotFoundError(f"[Errno 1] No such file or directory: '{cv7_test_paths[i]}'")
+for i in range(len(cv11_test_paths)):
+    if not os.path.exists(cv11_test_paths[i]):
+        raise FileNotFoundError(f"[Errno 1] No such file or directory: '{cv11_test_paths[i]}'")
     if not os.path.exists(audio_paths[i]):
          raise FileNotFoundError(f"[Errno 2] No such file or directory: '{audio_paths[i]}'")
 
 
 # Evaluation
 eval_report = ''
-for i in range(len(cv7_test_paths)):
-    cv7_test_path = cv7_test_paths[i] #"../data/company_knowledge/scg_knowledge/test2.csv" #"../data/smart_home/en-th/techsauce_demo/test2.csv" #"../data/sad_intent/test_normal.csv"
-    if cv7_test_path.split('.')[-1] == 'tsv':
-        cv7_test_pd = pd.read_csv(cv7_test_path, sep='\t')
+for i in range(len(cv11_test_paths)):
+    cv11_test_path = cv11_test_paths[i]
+    if cv11_test_path.split('.')[-1] == 'tsv':
+        cv11_test_pd = pd.read_csv(cv11_test_path, sep='\t')
     else:
-        cv7_test_pd = pd.read_csv(cv7_test_path)
+        cv11_test_pd = pd.read_csv(cv11_test_path)
 
-    audio_path = audio_paths[i] #"../data/company_knowledge/scg_knowledge/clips" #'../data/smart_home/en-th/techsauce_demo/clips' #"../data/sad_intent/clips"
-
-    paths = cv7_test_pd.path
-    references = cv7_test_pd.sentence
+    audio_path = audio_paths[i] 
+    paths = cv11_test_pd.path
+    references = cv11_test_pd.sentence
     paths = [os.path.join(audio_path, p) for p in paths]
 
     # Predict and Evaluate - LM
-    df, cer_result, wer_result, wer_results, cer_results, predicts, clean_references = evaluate(paths, cv7_test_pd, speech_service, do_postprocess=True, tokenize_engine="newmm", num_workers=NUM_WORKERS)
+    df, cer_result, wer_result, wer_results, cer_results, predicts, clean_references = evaluate(paths, cv11_test_pd, speech_service, do_postprocess=True, tokenize_engine="newmm", num_workers=NUM_WORKERS)
     
     # Compare word error
     df['word_diff'] = df.apply(lambda x: compare(x['sentence'], x['prediction']) if(x['wer'] > 0.) else None, axis=1)
 
-    dataset = cv7_test_path.split('/')[-2]
-    df.to_csv('/home/nattanaa/eval/balanced_3_train/common11_evaluation_normal_3added.csv')
-    # with open(os.path.join(model_path, str(dataset)+'_'+'evaluation.txt'), 'w') as file:
-    #     file.write(f'WER: {wer_result:.4f}\nCER: {cer_result:.4f}')
+    dataset = cv11_test_path.split('/')[-2]
+    df.to_csv('./output.csv')
+   
     
-    report = f"======== {dataset} with LM ({lm_name.split('.')[0]}) =======\nWER: {wer_result:.4f}\nCER: {cer_result:.4f}\n"
-    print(report) 
-    eval_report += report
-
-#     # Predict and Evaluate - No LM
-#     df, cer_result, wer_result, wer_results, cer_results, predicts, clean_references = evaluate(paths, cv7_test_pd, speech_service, do_postprocess=False, tokenize_engine="newmm", num_workers=NUM_WORKERS)
-
-#     # Compare word error
-#     df['word_diff'] = df.apply(lambda x: compare(x['sentence'], x['prediction']) if(x['wer'] > 0.) else None, axis=1)
-
-#     dataset = cv7_test_path.split('/')[-2]
-#     df.to_csv(os.path.join(model_path, str(dataset)+'_'+'evaluation_no_lm.csv'), index=False)
-#     # with open(os.path.join(model_path, str(dataset)+'_'+'evaluation_no_lm.txt'), 'w') as file:
-#     #     file.write(f'WER: {wer_result:.4f}\nCER: {cer_result:.4f}')
-        
-#     report = f'======== {dataset} with No LM =======\nWER: {wer_result:.4f}\nCER: {cer_result:.4f}\n\n'
-#     print(report)
-#     eval_report += report
-report_path = "/home/nattanaa/eval/balanced_3_train/evaluation_report_normal_3added.txt"    
-now = datetime.now().strftime('%Y%m%d_%H%M')
-# eval_report_path = os.path.join(report_path)
-with open(report_path, 'w') as file:
-    file.write(eval_report)
+    
