@@ -1,5 +1,9 @@
 # Gender classifier
 
+### Overview
+This model is simply a stack of 5 TDNN modules on top with 2 layers of Fully-connected. This model trained on 2 dataset; commonvoice11-th, Thai-ser.
+For more information please visit, https://github.com/speechbrain/speechbrain/tree/main/templates/speaker_id
+
 ### Setup
 
 ```
