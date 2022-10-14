@@ -1,4 +1,0 @@
-'Male' => 0
-'Female' => 1
-================
-'starting_index' => 0
