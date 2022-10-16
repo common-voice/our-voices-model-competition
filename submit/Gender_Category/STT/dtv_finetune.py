@@ -1,13 +1,9 @@
 # Setting
+MODEL_PATH ="."
 MODEL_NAME = "" # name your new model
-WANDB_PROJ_NAME = "" # create your project name
-BASE_MODEL = <MODEL_PATH> # pretrianed model
+BASE_MODEL = "./data2vec-thai-pretrained" # pretrianed model
 
 import os
-import wandb
-wandb.login()
-wandb.init(project=WANDB_PROJ_NAME, name=MODEL_NAME)
-
 from datasets import load_dataset, load_metric
 
 mixed_train = load_dataset("./cv11.py", "th", split="train+validation")
@@ -54,7 +50,7 @@ mixed_test = mixed_test.map(remove_special_characters).map(clean_batch).map(th_t
 
 from transformers import Wav2Vec2Processor
 
-processor = Wav2Vec2Processor.from_pretrained(<PROCESSOR_PATH>)
+processor = Wav2Vec2Processor.from_pretrained("./processor")
 
 import torchaudio
 
@@ -92,7 +88,7 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Union
 # import augment
 import sys
-sys.path.append(<WAVAUG_PATH>)
+sys.path.append("./WavAugment")
 import augment
 
 @dataclass
@@ -197,7 +193,7 @@ model.freeze_feature_extractor()
 from transformers import TrainingArguments
 
 training_args = TrainingArguments(
-  output_dir=MODEL_NAME,
+  output_dir=os.path.join(MODEL_PATH, MODEL_NAME),
   group_by_length=True,
   per_device_train_batch_size=16, #8,
   gradient_accumulation_steps=8, #4,

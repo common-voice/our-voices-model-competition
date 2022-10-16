@@ -12,7 +12,7 @@ import kenlm
 from pyctcdecode import build_ctcdecoder
 
 from datasets import load_metric
-from pythainlp.tokenize import word_tokenize
+from pythainlp.tokenize import word_tokenize 
 
 cer = load_metric("cer")
 wer = load_metric("wer")
@@ -20,7 +20,6 @@ wer = load_metric("wer")
 import os
 
 import numpy as np
-
 from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
 import torchaudio
 import torch
@@ -71,7 +70,7 @@ class Torch_Speech_Service:
         # load pretrained processor and model
         print("Initializing model ...")
         self.processor = Wav2Vec2Processor.from_pretrained(
-            <PROCESSOR_PATH> ####
+            "./processor" ####
         )
 
         # Choose Model
@@ -219,7 +218,7 @@ def compare(label, pred):
 NUM_WORKERS = 4
 # data2vec
 model_path = <MODEL_PATH>
-lm_path = <LM_PATH> 
+lm_path = "./newmm_4gram.bin"
 
 
 speech_service = Torch_Speech_Service(model_path, lm_path, "cuda")
@@ -229,7 +228,7 @@ cv11_test_paths = [
                  ]
 
 audio_paths = [
-              "./clips_wav"
+              "./Methods_and_Measures/commonvoice11/data/clips_wav"
               ]
 
 for i in range(len(cv11_test_paths)):
@@ -260,7 +259,7 @@ for i in range(len(cv11_test_paths)):
     df['word_diff'] = df.apply(lambda x: compare(x['sentence'], x['prediction']) if(x['wer'] > 0.) else None, axis=1)
 
     dataset = cv11_test_path.split('/')[-2]
-    df.to_csv('./output.csv')
+    df.to_csv('./result.csv')
    
     
     

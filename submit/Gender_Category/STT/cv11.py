@@ -15,7 +15,7 @@
 """ Common Voice Dataset"""
 
 
-import os
+import os 
 
 import datasets
 from datasets.tasks import AutomaticSpeechRecognition
@@ -53,21 +53,17 @@ _LANGUAGES = {
 
 #preprocess table
 import pandas as pd
-# df_dev= pd.read_csv("/home/shared/commonvoice11/annotation/all_split/dev_uniq.tsv", sep='\t')
-# df_test= pd.read_csv("/home/shared/commonvoice11/annotation/all_split/test_uniq.tsv", sep='\t')
-# df_train= pd.read_csv("/home/shared/commonvoice11/annotation/all_split/train_cleaned.tsv", sep='\t')
-df_train= pd.read_csv("/home/nattanaa/ASR_train/mozilla/normal/balanced_3/df_balanced_train.csv")
-df_train_add= pd.read_csv("/home/nattanaa/ASR_train/mozilla/normal/balanced_3/3_additional_balanced_same_sentence_train.csv")
-# df_dev=df_dev[['path','sentence']]
-# df_test=df_test[['path','sentence']]
-# df_train=df_train[['path','sentence']]
-df_train_add=df_train_add[['path','sentence']]
-df_added=pd.concat([df_train, df_train_add], ignore_index=True)
+df_dev= pd.read_csv("<DATA_PATH>")
+df_test= pd.read_csv("<DATA_PATH>")
+df_train= pd.read_csv("<DATA_PATH>")
+df_dev=df_dev[['path','sentence']]
+df_test=df_test[['path','sentence']]
+df_train=df_train[['path','sentence']]
 # # converting df file into csv
-# df_dev.to_csv('/home/nattanaa/ASR_train/mozilla/normal/all_split/df_all_dev.csv',index=False)
-# df_test.to_csv('/home/nattanaa/ASR_train/mozilla/normal/all_split/df_all_test.csv',index=False)
-# df_train.to_csv('/home/nattanaa/ASR_train/mozilla/normal/all_split/df_all_train.csv',index=False)
-df_added.to_csv('/home/nattanaa/ASR_train/mozilla/normal/balanced_3/df_added.csv',index=False)
+df_dev.to_csv('./df_all_dev.csv',index=False)
+df_test.to_csv('./df_all_test.csv',index=False)
+df_train.to_csv('./df_all_train.csv',index=False)
+
 class CommonVoiceConfig(datasets.BuilderConfig):
     """BuilderConfig for CommonVoice."""
 
@@ -131,28 +127,27 @@ class CommonVoice(datasets.GeneratorBasedBuilder):
 
     def _split_generators(self, dl_manager):
         """Returns SplitGenerators."""
-        abs_path_to_data = "/home/shared/commonvoice11/data"
-        abs_path_to_clips = os.path.join(abs_path_to_data, "clips_wav")
+        abs_path_to_clips = "./Methods_and_Measures/commonvoice11/data/clips_wav" 
 
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
-                    "filepath": "/home/nattanaa/ASR_train/mozilla/normal/balanced_3/df_added.csv",
+                    "filepath": "./df_all_train.csv",
                     "path_to_clips": abs_path_to_clips,
                 },
             ),
             datasets.SplitGenerator(
                 name=datasets.Split.TEST,
                 gen_kwargs={
-                    "filepath": "/home/nattanaa/ASR_train/mozilla/normal/balanced_3/df_balanced_test.csv",
+                    "filepath": "./df_all_test.csv",
                     "path_to_clips": abs_path_to_clips,
                 },
             ),
             datasets.SplitGenerator(
                 name=datasets.Split.VALIDATION,
                 gen_kwargs={
-                    "filepath": "/home/nattanaa/ASR_train/mozilla/normal/balanced_3/df_balanced_dev.csv",
+                    "filepath": "./df_all_dev.csv",
                     "path_to_clips": abs_path_to_clips,
                 },
             ),
