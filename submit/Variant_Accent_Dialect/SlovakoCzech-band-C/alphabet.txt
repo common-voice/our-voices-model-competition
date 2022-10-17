@@ -1,0 +1,51 @@
+# This is a czecho-slovak (or slovako-czech, if You want;) alphabet obtained as a union of slovak and czech alphabets.
+# Note that to in order to reduce somewhat the number of output neurons
+# 1) czech ů is missing but can be easily obtained as ú which does not occur at initial position of the word, e.g. by applying the regex substitution s/(?<!^)ú/ů/g
+# 2) slovak ĺ is missing but can be easily obtained from ll by applying the regex substitution s/ll/ĺ/g 
+# Created by Daniel Devatman Hromada in context of Mozilla Our Voices competition, conditions of morally restricted GPL apply
+ 
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+á
+é
+í
+ó
+ú
+ý
+ô
+ä
+č
+ď
+ľ
+ě
+ň
+ŕ
+š
+ť
+ž
+ř
+# The last (non-comment) line needs to end with a newline.

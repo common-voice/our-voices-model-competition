@@ -1,0 +1,11 @@
+#some potentially useful commands, obtained by running
+#cat ~/.bash_history |grep sk-focused |sort |uniq
+grep -P 'wer": 0.0$' sk-focused-TEDxSKfemale-skall.json #get amount of absolutely correctly matched utterances 
+grep -P 'wer": 0.0$' sk-focused-TEDfemale-skall.json |wc -l
+grep -P 'wer": 0.0$' sk-focused-TEDmale-skall.json |wc -l
+grep -P 'wer":' sk-focused-TEDfemale-skall.json |wc -l
+python3 /data/DeepSpeech/DeepSpeech.py --alphabet_config_path /data/alphabets/deepspeech/csk/alphabet.txt --test_files ./test500.csv --checkpoint_dir /data/CommonVoice/our-voices-model-competition/submit/Variant_Accent_Dialect/SlovakoCzech/checkpoint/sk-generic/ --test_output_file sk-focused-testcorr-skall.json --scorer_path /data/scorers/sk-all.scorer 
+python3 /data/DeepSpeech/DeepSpeech.py --test_files ./other.csv --alphabet_config_path /data/alphabets/deepspeech/csk/alphabet.txt --checkpoint_dir /data/CommonVoice/our-voices-model-competition/submit/Variant_Accent_Dialect/SlovakoCzech/checkpoint/sk-generic/ --scorer_path /data/scorers/sk-all.scorer --test_batch_size 8 --test_output_file sk-focused-other-skall.json 
+python3 /data/DeepSpeech/DeepSpeech.py --test_files ./TEDfemale.csv --alphabet_config_path /data/alphabets/deepspeech/csk/alphabet.txt --checkpoint_dir /data/CommonVoice/our-voices-model-competition/submit/Variant_Accent_Dialect/SlovakoCzech/checkpoint/sk-generic/ --scorer_path /data/scorers/sk-all.scorer --test_batch_size 8 --test_output_file sk-focused-TEDfemale-skall.json 
+python3 /data/DeepSpeech/DeepSpeech.py --test_files ./TEDmale.csv --alphabet_config_path /data/alphabets/deepspeech/csk/alphabet.txt --checkpoint_dir /data/CommonVoice/our-voices-model-competition/submit/Variant_Accent_Dialect/SlovakoCzech/checkpoint/sk-generic/ --scorer_path /data/scorers/sk-all.scorer --test_batch_size 8 --test_output_file sk-focused-TEDmale-skall.json 
+python3 /data/DeepSpeech/DeepSpeech.py --test_files ./test500.csv --alphabet_config_path /data/alphabets/deepspeech/csk/alphabet.txt --checkpoint_dir /data/CommonVoice/our-voices-model-competition/submit/Variant_Accent_Dialect/SlovakoCzech/checkpoint/sk-generic/ --scorer_path /data/scorers/sk-all.scorer --test_batch_size 8 --test_output_file sk-focused-test500-skall.json 
