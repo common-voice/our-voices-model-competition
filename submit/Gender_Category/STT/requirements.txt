@@ -1,0 +1,11 @@
+datasets==2.0.0
+transformers
+librosa
+jiwer
+pythainlp
+num-thai
+wandb
+pandas
+https://github.com/kpu/kenlm/archive/master.zip
+pyctcdecode==0.1.0
+onnxruntime
