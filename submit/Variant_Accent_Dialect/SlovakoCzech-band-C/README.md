@@ -128,8 +128,11 @@ At last but not least, our "common alphabet for a dialect continuum approach" ca
 
 ## Environment
 
-All training and testing took place on an Nvidia Xavier Jetson Dev Kit with Jetpack 4.6 running Deepspeech 0.9.3 with GPU (CUDA) support. Given that original CS model was trained without automatic precision and without cuDNN support, our derived models were also trained without this acceleration mechanisms. During its 14 days uptime, it consumed 5.48  kilowatts of energy.
+All training and testing took place on an Nvidia Xavier Jetson Dev Kit with Jetpack 4.6 running Deepspeech 0.9.3 with GPU (CUDA) support. Given that original CS model was trained without automatic precision and without cuDNN support, our derived models were also trained without this acceleration mechanisms. Last time I checked it in my office, it looked like this:
 
+![Jetson in action](https://github.com/hromi/our-voices-model-competition/blob/main/submit/Variant_Accent_Dialect/SlovakoCzech-band-C/JetsonCommonVoice.jpeg?raw=true)
+
+so it is almost certain that since 14 days uptime it dedicated some of its cycles to our voices competition, it consumed less than 10 kW of energy.
 
 # Noteworthy phenomena
 
