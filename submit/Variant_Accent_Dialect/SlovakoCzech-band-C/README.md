@@ -1,29 +1,29 @@
-#Preliminary note
+# Preliminary note
 Please check <https://github.com/hromi/our-voices-model-competition/releases/tag/v0.0.1> for all more massive files relevant to this submission.
 
 
-#Abstract
+# Abstract
 One main "band C" output of our Mozilla "our voices 2022 competition" is a first publicly available, light-weight (e.g. DeepSpeech) speech-to-text acoustic & language model intentionally covering both Slovak (SK) as well as Czech (CS) poles of SlovakoCzech language continuum. Departing from the postulate that Slovak (SK) and Czech (CS) language are two variants of a common ancestor language, we create a common alphabet file for CS and SK, and transfer-learn an already available CS checkpoint file with SK and CS Common Voice data. Given that we use a common alphabet for both CS and SK, we can use a sort-of "disrupt & focus" procedure where we iteratively train the model with few epochs of CS (disrupt) following with few epochs of SK (focus). We obtain encouraging (WER: 15.8%; CER: 4.5%) results when testing on 500-utterance subset of CommonVoice's Slovak recordings data which weren't used during training. We obtain more modest results when we test the system on a real-life TEDxSK dataset (46% WER for female and 47,8% WER for male TEDx speakers). Additionally, the very same acoustic model yields 32% WER for testing data contained in Czech language Common Voice dataset. One single epoch of subsequent focusing of the model to CS language yields a model with perform better for CS language (22% WER) while still preserving significant part of its ability to realize accurate inferences for SK as well. It is also observed that feeding a CS-input into SK-focused acoustic model and SK-scorer sometimes results in an interesting behaviour reminiscient of machine translation. The models hereby introduced can be immediately used for process of upvoting of not-yet-validated items of SK (resp. CS) Common Voice dataset and the method can be potentially used incases where multiple under-represented languages form a linguistic group or dialect continuum (c.f. also the UpperSorbian subdirectory).
 
 
-#Introduction
+# Introduction
 Question "Are czech (CS) and slovak (SK) two different languages or just two variants of one single language ?" is not an easy one to tackle. On one hand, one observes differences between CS and SK on phonetic, lexical and partially also morphosyntactic level. Phonetic differences, for example, express themselves in slight difference of alphabets of two languages: thus, CS alphabet contains letters "ř", "ě" and "ů" not contained in SK alphabet. Conversely, SK language - and SK alphabet - operates with phonemes (resp. letters) "ľ", "ĺ", "ŕ", "ô" and "ä" unbeknown to CS world.
 
 Still, people who masters both CS and SK languages usually agree that there are more similarities than their are differences. Historically, both languages stem from the common root and the commong linguistic ancestor is still not so distant as, for example, in case of Dutch and German. Our Mozilla our-voices submission also departs from the premise that both languages can be understood as variants, or poles of a dialect continuum. Adoption of such a premise allows us to leverage a much bigger dataset of available recordings for CS language for the purpose of training of a SK speech-to-text system.
 
-##Training the first public SK STT model
+## Training the first public SK STT model
 
 **In conrete terms, we consider CS and SK to be two distinct language variants of a common language**. This allows us to benefit from already existing resources - e.g. publicly available DeepSpeech checkpoint file for CS language - to fine-tune Slovak model with Common Voice data. This is of non-negligible advantage given that SK Common Voice dataset (18 hours of validated speech data; 19 hours in total) is significantly smaller than the CS one (59 hours of validated data; 70 hours in total).
 
-#Method
+# Method
 
-##Common alphabet
+## Common alphabet
 
 An common CSK alphabet was created as a union of set of symbols included in CS and SK alphabets. CSK alphabet contains 43 symbols. In order to reduce the number of output neurons - and thus also the number of parameters and complexity of the acoustic model - the CSK alphabet does not contain the czech "ů" and slovak "ĺ" but these can be easily an unambigously identified. C.f. substitution regexes in the comments alphabet file's header to see how this can be done.
 
 Having a common alphabet allows us to switch from CS to SK - or vice versa - with a simple fine-tuning procedure. Otherwise, more complex transfer learning procedure would be necessary.
 
-##Datasets
+## Datasets
 We used two  Common Voice 11 Czech dataset and Common Voice 11 Slovak dataset for training and <!---own "toy" corpus to assess whether the SK model is good enough to be used in highly noise environment--> manually annotated part of the TEDxSK dataset for additional testing.
 
 In case of CS corpus which is >3 times bigger than the SK corpus, we used train.csv (14612 items) and test.csv (7709) as generated by import\_cv2.py script included in the bin directory of the DeepSpeech project. <!---Additionally, cs/test-female.csv and csv/test-male.csv subdatasets thanks to metadata contained in CV's TSV files.--!>
@@ -40,21 +40,21 @@ After some searching, we also found TEDxSK corpus. Being unsure about quality of
 Toy corpus contains recordings of one male and one female speaker of >20 strophes of a children alphabetisation verse book "Painted alphabet" by Slovak poet Jan Smrek. Toy corpus was created in real life conditions - e.g. a lot of noise, children running around, speaker making mistakes etc. - by means of a Raspberry PiZero with Respeaker 2-mic array embooked into a wooden shell of a "Digital Primer" artefact. As of 12.10 we did not yet time to fully validate all recordings of the corpus.
 -->
 
-##Training process
+## Training process
 
-###Transfer learning
+### Transfer learning
 
 Training process is initiated by transfer learning from existing DeepSpeech model for Czech language - we call this model cs-origin - available here <https://github.com/comodoro/deepspeech-cs/> . Release from 21st July 2021 contains checkpoint file among its assets, so that's where we start.
 
 We drop just the last layer ( --drop\_source\_layers 1) during the transfer learning process.  
 
-###Disrupt \& Focus
+### Disrupt \& Focus
 
 We used a method which we naively call "disrupt & focus". During the disrupt epoch (or a certain number of epochs), model is trained with data originating from language X. Subsequently, during the focus epoch - or a certain number of epochs - model is trained solely with data originating from language Y. Disrupt & focus couples sequence can be repeated multiple times, always ending with at least one focus epoch which adapts the model primarily to target language Y. The intuition behind the usage of "disrupt" epochs is to use non-target yet similar-to-target language X to get model out of locally optimal state, thus reducing the danger of overfitting.
 
 Note that given that both X and Y share the common alphabet, switch between language X and Y does not oblige one to drop any layer nor change of amount of neurons in the output layer. 
 
-####Models
+#### Models
 
 Our main output - the model sk-focused - has been obtained by:
 
@@ -66,7 +66,7 @@ Our main output - the model sk-focused - has been obtained by:
 
 Our secondary output - the model cs-generic - has been obtained by focusing the sk-generic to samples from cs/train.csv for one single epoch.
 
-##Scorers
+## Scorers
 
 We created a first publicly available language model of slovak language (sk-dictwiki.scorer) by combining the wikipedia data with enriched dictionary of slovak language. Publicly available wikipedia dump was transformed in pure text corpus by a wonderful WikiExtractor tool ( <https://github.com/attardi/wikiextractor> ). Morphologically enriched dictionary was obtained as a dump from aspell package
 
@@ -74,7 +74,7 @@ We created a first publicly available language model of slovak language (sk-dict
 
 Well-established tools from DeepSpeech \& KenLM suite are used to create the scorer. To simplify the process for future generations, we package all necessary command in script utils/new\_scorer\_from\_file.sh. We used most frequent milion words to create the scorer, these cover 96.3% of tokens 
 
-##Evaluation
+## Evaluation
 
 Our main evaluation metric were WER / CER error rates, as returned by the DeepSpeech script for different model / test-data combinations. 
 
@@ -82,7 +82,7 @@ We also looked at number of "complete match" predictions with ideal (i.e. zero) 
 
 We denote quantity of such "complete match" prediction with as M and proportion of fully matched items present in dataset of size N as N/M.
 
-#Results
+# Results
 
 |Model         | Tested on         | WER     |CER     | Loss    |Scorer     |M 
 |----------------------------------|---------|--------|---------|----------------
@@ -95,7 +95,7 @@ We denote quantity of such "complete match" prediction with as M and proportion 
 |sk-focused    | cs/test.csv\*\*\* | 0.652641|0.236816|43.103512|sk-all     |2010
 ---------------|-------------------|---------|--------|---------|---------------
 |sk-focused    | TEDxSK/female.csv | 0.460184|0.241200|54.737408|sk-all     |373
-|sk-focused    | TEDxSK/male.csv   | 0.478214|0.260343|59.606163|sk-dictwiki|1039
+|sk-focused    | TEDxSK/male.csv   | 0.478214|0.260343|59.606163|sk-all     |1039
 
 \* Note that train16002.csv was used to train the sk-focused model, therefore the encouraging 2.1% CER in the first test can potentially be caused to overfitting and not due to induction of useful generalizations.
 
@@ -119,7 +119,7 @@ cs/other.csv (N=8532)| cs-generic | cs-all | 732| 11.7 %
 
 #Discussion
 
-#Utility
+##Utility
 
 In the context of Mozilla's 2022 edition of Our Voices Competition, we have created first publicly available Deepspeech/Coqui STT system for Slovak language. System is composed of a 181 Megabyte acoustic model derived from publicly available checkpoints of Czech Deepspeech model and a 180 Megabyte language model able to execute fast enough inferences even on a Raspberry Pi. The system performs encouringly well (~15% WER) when tested against CommonVoice sentences not used during the training. Tests agains real-life conditions (e.g. TEDxSK) do not point to presence of any pro-male bias (i.e. 46% WER for emale, 47.8% WER for male) but further work - e.g. training with non-CommonVoice datasets - should be and will be done.
 

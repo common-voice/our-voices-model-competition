@@ -10,7 +10,7 @@ Very briefly here: we took a deepspeech-cs checkpoint, originally trained on Cze
 Once this process is over, we get WER: 0.545715, CER: 0.218711, loss: 66.486069  on 450 recordings in testing CommonVoice sub-dataeset. Without fragment enrichment, results are WER: 0.568155, CER: 0.233091, loss: 69.035698.
 
 # Model, scorer, alphabet
-What You need to get You started is here: 
+All files You need to make Your Deepspeech / coqui / [lesen-mikroserver](https://github.com/hromi/lesen-mikroserver) suite start processing HighSorbian are here <https://github.com/hromi/our-voices-model-competition/releases/tag/v0.0.1> (files prefixed with hsb-).
 
 # Read before use
 If You want to use this in Your system, make sure that You execute following non-ambigous substitutions, to make HSB consistent with WesternSlavic alphabet:
@@ -37,7 +37,7 @@ to show the Sorbian person what he/she wants to see. (For slovaks and czechs, th
 
 
 # Curious ?
-Please read this <https://github.com/hromi/our-voices-model-competition/tree/main/submit/Variant_Accent_Dialect/SlovakoCzech#readme> to know more about why, what & how.
+Please read this <https://github.com/hromi/our-voices-model-competition/tree/main/submit/Variant_Accent_Dialect/SlovakoCzech-band-C> to know more about why, what & how it all started.
 
 
 \* we'll go into more detail concerning the fragment method in a related academic paper.
