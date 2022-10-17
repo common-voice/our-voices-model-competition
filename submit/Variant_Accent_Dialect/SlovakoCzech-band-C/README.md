@@ -3,7 +3,7 @@ Please check <https://github.com/hromi/our-voices-model-competition/releases/tag
 
 
 # Abstract
-One main "band C" output of our Mozilla "our voices 2022 competition" is a first publicly available, light-weight (e.g. DeepSpeech) speech-to-text acoustic & language model intentionally covering both Slovak (SK) as well as Czech (CS) poles of SlovakoCzech language continuum. Departing from the postulate that Slovak (SK) and Czech (CS) language are two variants of a common ancestor language, we create a common alphabet file for CS and SK, and transfer-learn an already available CS checkpoint file with SK and CS Common Voice data. Given that we use a common alphabet for both CS and SK, we can use a sort-of "disrupt & focus" procedure where we iteratively train the model with few epochs of CS (disrupt) following with few epochs of SK (focus). We obtain encouraging (WER: 15.8%; CER: 4.5%) results when testing on 500-utterance subset of CommonVoice's Slovak recordings data which weren't used during training. We obtain more modest results when we test the system on a real-life TEDxSK dataset (46% WER for female and 47,8% WER for male TEDx speakers). Additionally, the very same acoustic model yields 32% WER for testing data contained in Czech language Common Voice dataset. One single epoch of subsequent focusing of the model to CS language yields a model with perform better for CS language (22% WER) while still preserving significant part of its ability to realize accurate inferences for SK as well. It is also observed that feeding a CS-input into SK-focused acoustic model and SK-scorer sometimes results in an interesting behaviour reminiscient of machine translation. The models hereby introduced can be immediately used for process of upvoting of not-yet-validated items of SK (resp. CS) Common Voice dataset and the method can be potentially used incases where multiple under-represented languages form a linguistic group or dialect continuum (c.f. also the UpperSorbian subdirectory).
+One main "band C" output of our Mozilla "our voices 2022 competition" is a first publicly available, light-weight (e.g. DeepSpeech) speech-to-text acoustic & language model intentionally covering both Slovak (SK) as well as Czech (CS) poles of SlovakoCzech language continuum. Departing from the postulate that Slovak (SK) and Czech (CS) language are two variants of a common ancestor language, we create a common alphabet file for CS and SK, and transfer-learn an already available CS checkpoint file with SK and CS Common Voice data. Given that we use a common alphabet for both CS and SK, we can use a sort-of "disrupt & focus" procedure where we iteratively train the model with few epochs of CS (disrupt) following with few epochs of SK (focus). We obtain encouraging (WER: 15.8%; CER: 4.5%) results when testing on 500-utterance subset of CommonVoice's Slovak recordings data which weren't used during training. We obtain more modest results when we test the system on a real-life TEDxSK dataset (46% WER for female and 47,8% WER for male TEDx speakers). Additionally, the very same acoustic model yields 32% WER for testing data contained in Czech language Common Voice dataset. One single epoch of subsequent focusing of the model to CS language yields a model with perform better for CS language (22% WER) while still preserving significant part of its ability to realize accurate inferences for SK as well. It is also observed that feeding a CS-input into SK-focused acoustic model and SK-scorer sometimes results in an interesting behaviour reminiscient of machine translation. The models hereby introduced can be immediately used for process of upvoting of not-yet-validated items of SK (resp. CS) Common Voice dataset and the method can be potentially used incases where multiple under-represented languages form a linguistic group or dialect continuum (c.f. also the [HighSorbian](https://github.com/hromi/our-voices-model-competition/tree/main/submit/Variant_Accent_Dialect/HighSorbian-band-A) subdirectory).
 
 
 # Introduction
@@ -84,18 +84,16 @@ We denote quantity of such "complete match" prediction with as M and proportion 
 
 # Results
 
-|Model         | Tested on         | WER     |CER     | Loss    |Scorer     |M 
-|--------------|-------------------|---------|--------|---------|----------------
-|sk-focused    |sk/train16002.csv\*| 0.096608|0.021378|3.950855 |sk-dictwiki|2373
-|sk-focused    |cs/train.csv\*\*   | 0.132358|0.045967|31.222963|cs-dictwiki|7870
----------------|-------------------|---------|--------|---------|---------------
-|sk-focused    | sk/test500.csv    | 0.150977|0.043060|14.073430|sk-all     |324
-|sk-focused    | sk/other.csv      | 0.275912|0.098194|16.803932|sk-all     |96
-|sk-focused    | cs/test.csv       | 0.327879|0.138786|43.103512|cs-all     |2010
-|sk-focused    | cs/test.csv\*\*\* | 0.652641|0.236816|43.103512|sk-all     |2010
----------------|-------------------|---------|--------|---------|---------------
-|sk-focused    | TEDxSK/female.csv | 0.460184|0.241200|54.737408|sk-all     |373
-|sk-focused    | TEDxSK/male.csv   | 0.478214|0.260343|59.606163|sk-all     |1039
+Model         | Tested on         | WER     |CER     | Loss    |Scorer     |M 
+--------------|-------------------|---------|--------|---------|-----------|----
+sk-focused    |sk/train16002.csv\*| 0.096608|0.021378|3.950855 |sk-dictwiki|2373
+sk-focused    |cs/train.csv\*\*   | 0.132358|0.045967|31.222963|cs-dictwiki|7870
+sk-focused    | sk/test500.csv    | 0.150977|0.043060|14.073430|sk-all     |324
+sk-focused    | sk/other.csv      | 0.275912|0.098194|16.803932|sk-all     |96
+sk-focused    | cs/test.csv       | 0.327879|0.138786|43.103512|cs-all     |2010
+sk-focused    | cs/test.csv\*\*\* | 0.652641|0.236816|43.103512|sk-all     |2010
+sk-focused    | TEDxSK/female.csv | 0.460184|0.241200|54.737408|sk-all     |373
+sk-focused    | TEDxSK/male.csv   | 0.478214|0.260343|59.606163|sk-all     |1039
 
 \* Note that train16002.csv was used to train the sk-focused model, therefore the encouraging 2.1% CER in the first test can potentially be caused to overfitting and not due to induction of useful generalizations.
 
@@ -103,12 +101,11 @@ We denote quantity of such "complete match" prediction with as M and proportion 
 
 \*\*\* Interesting phenomena observed, c.f. "Noteworthy phenomena" subsection of "Discussion" section
 
-|Model     | Tested on     | WER    |CER     | Loss    | scorer
-|--------------------------|-----------------|---------|----------
-|cs-focused| cs/test.csv   |0.225018|0.100922|23.676527 |cs-dictwiki
-|----------|---------------|----------------------------------------
-|cs-focused|sk/test500.csv |0.349023|0.125830|28.343493
-|cs-focused|TEDxSK/male.csv|0.670467|0.378538|75.238403
+Model     | Tested on     | WER    |CER     | Loss    | scorer
+----------|---------------|--------|--------|---------|----------
+cs-focused| cs/test.csv   |0.225018|0.100922|23.676527|cs-dictwiki
+cs-focused|sk/test500.csv |0.349023|0.125830|28.343493|cs-dictwiki
+cs-focused|TEDxSK/male.csv|0.670467|0.378538|75.238403|cs-dictwiki
 
 
 Not yet validated    | model      | scorer | M  | N/M ratio
@@ -121,11 +118,11 @@ cs/other.csv (N=8532)| cs-generic | cs-all | 732| 11.7 %
 
 ## Utility
 
-In the context of Mozilla's 2022 edition of Our Voices Competition, we have created first publicly available Deepspeech/Coqui STT system for Slovak language. System is composed of a 181 Megabyte acoustic model derived from publicly available checkpoints of Czech Deepspeech model and a 180 Megabyte language model able to execute fast enough inferences even on a Raspberry Pi. The system performs encouringly well (~15% WER) when tested against CommonVoice sentences not used during the training. Tests agains real-life conditions (e.g. TEDxSK) do not point to presence of any pro-male bias (i.e. 46% WER for emale, 47.8% WER for male) but further work - e.g. training with non-CommonVoice datasets - should be and will be done.
+In the context of Mozilla's 2022 edition of Our Voices Competition, we have created first publicly available Deepspeech/[Coqui](https://coqui.ai) STT system for Slovak language. System is composed of a 181 Megabyte acoustic model derived from publicly available checkpoints of Czech Deepspeech model and a 180 Megabyte language model able to execute fast enough inferences even on a Raspberry Pi. The system performs encouringly well (~15% WER) when tested against CommonVoice sentences not used during the training. Tests agains real-life conditions (e.g. TEDxSK) do not point to presence of any pro-male bias (i.e. 46% WER for emale, 47.8% WER for male) but further work - e.g. training with non-CommonVoice datasets - should be and will be done.
 
 Last table of the "Results" section indicates immediate utility of our system for CV community: transcripts of more than half (e.g. 51.6 \%) of samples which are still not validated in the Slovak corpus match predictions given by our Slovak STT system. One can thus potentially upvote such recordings and/or consider them as validated by a validator of artificial nature, thus reducing the amount of manpower for the validation process.
 
-At last but not least, our "common alphabet for a dialect continuum approach" can be useful also for highly underrepresented languages - c.f. our Band A - "UpperSorbian" - subdirectory of our submission.
+At last but not least, our "common alphabet for a dialect continuum approach" can be useful also for highly underrepresented languages - c.f. our Band A - "[HighSorbian](https://github.com/hromi/our-voices-model-competition/tree/main/submit/Variant_Accent_Dialect/HighSorbian-band-A)" - subdirectory of our submission.
 
 ## Environment
 
@@ -143,11 +140,21 @@ WER: 0.666667, CER: 0.097561, loss: 33.360397
  - res: "jazdilo sa proti smeru hodinových ručičiek"
 `
 
-whereby the predicted sequence "jazdilo sa proti smeru hodinových ručičiek" is a phonetically and syntactically correct slovak translation of the original czech utterance. Limits of WER / CER metrics in such cases are obvious.
+whereby the predicted sequence "jazdilo sa proti smeru hodinových ručičiek" is a phonetically and syntactically correct slovak translation of the original czech utterance. 
+
+Limits of WER / CER metrics in such cases are obvious.
 
 # Checkpoint
 
 In <https://github.com/hromi/our-voices-model-competition/releases/tag/v0.0.1> we also provide checkpoint file for sk-focused so that other can continue there, where we halt.
+
+# References
+* [deepspeech-cs](https://github.com/comodoro/deepspeech-cs)
+* [TEDxSK](https://nlp.kemt.fei.tuke.sk/speech/tedx) J. Staš, D. Hládek, P. Viszlay, T. Koctúr, “TEDxSK and JumpSK: A new Slovak speech recognition dedicated corpus,” Journal of Linguistics, Vol. 68, No. 2, 2017, pp. 346-354.
+* [Common Voice](https://commonvoice.mozilla.org/)
+* [WikiExtractor](https://github.com/attardi/wikiextractor) / [Wikipedia dumps](https://dumps.wikimedia.org/backup-index.html)
+* [Deepspeech command-line flags for training scripts ;)](https://deepspeech.readthedocs.io/en/latest/Flags.html)
+
 
 # Comment to our-voice competition jury
 
