@@ -29,6 +29,7 @@ EncoderClassifier: https://github.com/speechbrain/speechbrain/blob/develop/speec
 
 - Inference
 ```py
+audio_path = "path/to/audio.wav" # Path to audio file, Support only .wav format with 16kHz
 signal, fs = torchaudio.load(audio_path) 
 output_probs, score, index, class_pred = classifier.classify_batch(signal)
 ```
