@@ -1,4 +1,4 @@
-#DeepSpeech for HighSorbian (deepspeech-hsb)
+# DeepSpeech for HighSorbian (deepspeech-hsb)
 
 Very briefly here: we took a deepspeech-cs checkpoint, originally trained on Czech audio recordings, transfer-learned it to our WesternSlavic alphabet.txt, trained some more epochs on Slovak-Czech-Slovak data to finally focus it on HSB in the following process:
 
@@ -9,10 +9,10 @@ Very briefly here: we took a deepspeech-cs checkpoint, originally trained on Cze
 
 Once this process is over, we get WER: 0.545715, CER: 0.218711, loss: 66.486069  on 450 recordings in testing CommonVoice sub-dataeset. Without fragment enrichment, results are WER: 0.568155, CER: 0.233091, loss: 69.035698.
 
-#Model, scorer, alphabet
+# Model, scorer, alphabet
 What You need to get You started is here: 
 
-#Read before use
+# Read before use
 If You want to use this in Your system, make sure that You execute following non-ambigous substitutions, to make HSB consistent with WesternSlavic alphabet:
 `
 replace('ł','v')
@@ -36,7 +36,7 @@ replace('zz','ź')
 to show the Sorbian person what he/she wants to see. (For slovaks and czechs, the whole thing is more readable with westernslavic alphabet).
 
 
-#Curious ?
+# Curious ?
 Please read this <https://github.com/hromi/our-voices-model-competition/tree/main/submit/Variant_Accent_Dialect/SlovakoCzech#readme> to know more about why, what & how.
 
 
