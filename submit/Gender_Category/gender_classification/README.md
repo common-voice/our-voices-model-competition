@@ -45,12 +45,18 @@ To inference whole dataset of commonvoice11 visit `./model_inference.ipynb`. Thi
 ### Train
 This model trained on 2 datasets
  - Commonvoice11-thai
- - Thai-SER https://github.com/vistec-AI/dataset-releases/releases/tag/v1
-Please download these datasets before execute training.
+ - Thai-SER
+
+Please download these datasets before execute model training by running 
+```console
+cd ../data
+bash ./load_dataset.sh
+```
+
 We utilized Speechbraind to train the model.
 visit https://github.com/speechbrain/speechbrain/tree/main/templates/speaker_id
 
-Annotation files already provide in ./train/manifest
+Annotation files already provide in `./train/manifest`
 ```py
 python train.py train.yaml
 ```

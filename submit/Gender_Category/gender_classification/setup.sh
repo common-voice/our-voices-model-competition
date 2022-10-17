@@ -1,7 +1,4 @@
-pip install git+https://github.com/speechbrain/speechbrain.git
-pip install gdown
-pip install ipykernel
-pip install pandas
+pip install -r ../requirements.txt
 
 mkdir ./models
 cd ./models

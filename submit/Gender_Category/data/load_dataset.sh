@@ -43,6 +43,7 @@ echo "Unziping Thai-SER"
 unzip ./*.zip -d ../thai_ser/raw
 
 cd ..
+# Download .tsv file to annotation folder
 cp ./commonvoice11/raw/cv-corpus-6.1-2020-12-11/th/train.tsv ./commonvoice11/annotation
 cp ./commonvoice11/raw/cv-corpus-6.1-2020-12-11/th/dev.tsv ./commonvoice11/annotation
 cp ./commonvoice11/raw/cv-corpus-6.1-2020-12-11/th/test.tsv ./commonvoice11/annotation
