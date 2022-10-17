@@ -1,4 +1,8 @@
 pip install gdown
+
+mkdir ./models
+cd ./models
+
 gdown --folder 1LAkmsgQ1KrxuFO54UOTnrA7NWcOGAshX
 gdown --folder 1zM_yEi0eEiAItiVSIlQeSgIGderRemHu
 gdown --folder 1bsj7DV6Y9hYf4C-Tx0P6tmvPr2hJtwsp
