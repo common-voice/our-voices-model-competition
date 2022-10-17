@@ -85,7 +85,7 @@ We denote quantity of such "complete match" prediction with as M and proportion 
 # Results
 
 |Model         | Tested on         | WER     |CER     | Loss    |Scorer     |M 
-|----------------------------------|---------|--------|---------|----------------
+|--------------|-------------------|---------|--------|---------|----------------
 |sk-focused    |sk/train16002.csv\*| 0.096608|0.021378|3.950855 |sk-dictwiki|2373
 |sk-focused    |cs/train.csv\*\*   | 0.132358|0.045967|31.222963|cs-dictwiki|7870
 ---------------|-------------------|---------|--------|---------|---------------
@@ -117,9 +117,9 @@ sk/other.csv (N=182) | sk-generic | sk-all | 96 | 51.6 %
 cs/other.csv (N=8532)| cs-generic | cs-all | 732| 11.7 % 
 
 
-#Discussion
+# Discussion
 
-##Utility
+## Utility
 
 In the context of Mozilla's 2022 edition of Our Voices Competition, we have created first publicly available Deepspeech/Coqui STT system for Slovak language. System is composed of a 181 Megabyte acoustic model derived from publicly available checkpoints of Czech Deepspeech model and a 180 Megabyte language model able to execute fast enough inferences even on a Raspberry Pi. The system performs encouringly well (~15% WER) when tested against CommonVoice sentences not used during the training. Tests agains real-life conditions (e.g. TEDxSK) do not point to presence of any pro-male bias (i.e. 46% WER for emale, 47.8% WER for male) but further work - e.g. training with non-CommonVoice datasets - should be and will be done.
 
@@ -127,12 +127,12 @@ Last table of the "Results" section indicates immediate utility of our system fo
 
 At last but not least, our "common alphabet for a dialect continuum approach" can be useful also for highly underrepresented languages - c.f. our Band A - "UpperSorbian" - subdirectory of our submission.
 
-##Environment
+## Environment
 
 All training and testing took place on an Nvidia Xavier Jetson Dev Kit with Jetpack 4.6 running Deepspeech 0.9.3 with GPU (CUDA) support. Given that original CS model was trained without automatic precision and without cuDNN support, our derived models were also trained without this acceleration mechanisms. During its 14 days uptime, it consumed 5.48  kilowatts of energy.
 
 
-#Noteworthy phenomena
+# Noteworthy phenomena
 
 After exposing czech recordings to sk-focused acoustic model combined with sk-dictwiki scorer, one observes cases when our systems behaves like a trivial CS-SK translation engine. For example:
 
@@ -145,11 +145,11 @@ WER: 0.666667, CER: 0.097561, loss: 33.360397
 
 whereby the predicted sequence "jazdilo sa proti smeru hodinových ručičiek" is a phonetically and syntactically correct slovak translation of the original czech utterance. Limits of WER / CER metrics in such cases are obvious.
 
-#Checkpoint
+# Checkpoint
 
 In <https://github.com/hromi/our-voices-model-competition/releases/tag/v0.0.1> we also provide checkpoint file for sk-focused so that other can continue there, where we halt.
 
-#Comment to our-voice competition jury
+# Comment to our-voice competition jury
 
 In certain sense, our work is also relevant to "Method" and "Open" categories but being unsure whether we can apply in multiple categories in the same time, we put it into "Language Variant" section.
 
