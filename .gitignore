@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Clips data
+./submit/Gender_Category/data/commonvoice11/clips/clips_wav/*.wav
+./submit/Gender_Category/data/commonvoice11/clips/clips_wav_trimmed/*.wav
