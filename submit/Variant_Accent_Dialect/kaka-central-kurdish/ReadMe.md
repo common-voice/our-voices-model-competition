@@ -53,7 +53,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - Asosoft has released [a subset of their internal dataset](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) for public use. I have tested the final model on this.
 
-- The python version lacks LM based decoding at the moment. However a .NET version of the software has been developed which employs a very small KenLM model leading to lower WER.
+- ~~The python version lacks LM based decoding at the moment. However a .NET version of the software has been developed which employs a very small KenLM model leading to lower WER.~~ Decoding with language model is supported. In this submission [pyctcdecode](https://github.com/kensho-technologies/pyctcdecode) is used, please refer to the corresponding project for more information.
 
 - Checkout Wandb training [logs](https://wandb.ai/greenbase/ASR-CV-Competition/runs/7jw4zrk8?workspace=user-).
 
