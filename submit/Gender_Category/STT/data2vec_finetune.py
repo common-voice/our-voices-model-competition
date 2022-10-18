@@ -10,8 +10,8 @@ wandb.init(project="mozilla", name=MODEL_NAME)
 import os
 from datasets import load_dataset, load_metric
 
-mixed_train = load_dataset("./cv11.py", "th", split="train+validation")
-mixed_test = load_dataset("./cv11.py", "th", split="test")
+mixed_train = load_dataset("./cv11_dataloader.py", "th", split="train+validation")
+mixed_test = load_dataset("./cv11_dataloader.py", "th", split="test")
 
 
 import re

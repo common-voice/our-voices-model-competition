@@ -128,7 +128,7 @@ class CommonVoice(datasets.GeneratorBasedBuilder):
 
     def _split_generators(self, dl_manager):
         """Returns SplitGenerators."""
-        abs_path_to_clips = "/home/nuttawac/our-voices-model-competition/submit/Gender_Category/data/commonvoice11_2/clips" 
+        abs_path_to_clips = "../data/commonvoice11/clips" #"/home/nuttawac/our-voices-model-competition/submit/Gender_Category/data/commonvoice11_2/clips" 
 
         return [
             datasets.SplitGenerator(
