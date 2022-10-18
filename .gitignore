@@ -129,5 +129,8 @@ dmypy.json
 .pyre/
 
 # Clips data
-./submit/Gender_Category/data/commonvoice11/clips/clips_wav/*.wav
-./submit/Gender_Category/data/commonvoice11/clips/clips_wav_trimmed/*.wav
+# /submit/Gender_Category/data/commonvoice11/clips/clips_wav/*.wav
+# /submit/Gender_Category/data/commonvoice11/clips/clips_wav_trimmed/*.wav
+*wav
+!/submit/Gender_Category/data/commonvoice11/clips/clips_wav/common_voice_th_25691315.wav
+!/submit/Gender_Category/data/commonvoice11/clips/clips_wav_trimmed/common_voice_th_25691315.wav
