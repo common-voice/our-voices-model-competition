@@ -10,8 +10,10 @@ in a tflite format. The KenLM language models created for each of the dialects a
 
 The Makefile should be able to recreate the environment, simply by running `make`.
 
+After that if you want to copy in the models and language-models instead of retraining them, please unzip the `models-and-lm.zip` file and place the `models/` and the `lm-models/` folders inside of the source-code folder.
+
 Note that the application that splits the Common Voice dataset is non-deterministic.
-As such, if you want to recreate the results, you can find the custom splits both in the `splits/` folder in the source-code directory and in the individual packages for RM-Surilv and RM-Vallader on the [project's Gitlab package repository](https://gitlab.com/prvInSpace/romansh-stt-project/-/packages).
+As such, if you want to recreate the results, you can find the custom splits both in the `splits/` folder in the source-code directory and in the individual packages for RM-Surilv and RM-Vallader on the [project's Gitlab package repository](https://gitlab.com/prvInSpace/romansh-stt-project/-/packages). For your convenience these will be copied into the correct folder when you run the `make` command.
 
 The Docker environment can be started via the Makefile using a couple of flags. The most notable of which is LANG which specifies which language-code to target.
 For example, to create an environment with both spoken and text data for rm-sursilv, this can be done by calling:
