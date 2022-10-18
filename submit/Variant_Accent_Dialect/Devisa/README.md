@@ -29,19 +29,19 @@ make train LANG=rm-sursilv
 ```
 You can specify which language model you want by adding the LM flag when starting the Docker and you can also specify which Common Voice dataset you want by using the DATA flag as such:
 ```bash 
-make train LANG=rm-sursilv DATA=rm-vallader LM-rm-puter 
+make train LANG=rm-sursilv DATA=rm-vallader LM=rm-puter 
 ```
 
 Once in the environment you can rerun the tests by either running:
 ```bash
 bash /scripts/eval.bash
 ```
-if you want to test it without the language model or by running:
+if you want to test it without the language model.
+
+If you want to test it with a language mode, please run this command instead:
 ```bash
 bash /scripts/eval_scorer.bash
 ```
-if you want to test it with the language model.
-
 
 Models can also be trained using the training scripts in the `/scripts` folder inside of the Docker environment.
 For example, to retrain the acoustic models, please run:
