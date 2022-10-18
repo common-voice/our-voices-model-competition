@@ -1,7 +1,11 @@
 # Setting
-MODEL_PATH ="."
-MODEL_NAME = "" # name your new model
-BASE_MODEL = "./data2vec-thai-pretrained" # pretrianed model
+MODEL_PATH ="./models"
+MODEL_NAME = "new_model" # name your new model
+BASE_MODEL = "./models/data2vec-thai-pretrained/1" # pretrianed model
+
+import wandb
+wandb.login()
+wandb.init(project="mozilla", name=MODEL_NAME)
 
 import os
 from datasets import load_dataset, load_metric
@@ -50,7 +54,7 @@ mixed_test = mixed_test.map(remove_special_characters).map(clean_batch).map(th_t
 
 from transformers import Wav2Vec2Processor
 
-processor = Wav2Vec2Processor.from_pretrained("./processor")
+processor = Wav2Vec2Processor.from_pretrained("./models/processor")
 
 import torchaudio
 
@@ -88,7 +92,7 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Union
 # import augment
 import sys
-sys.path.append("./WavAugment")
+sys.path.append("./models/WavAugment") 
 import augment
 
 @dataclass
@@ -208,7 +212,7 @@ training_args = TrainingArguments(
   logging_strategy="steps",
   eval_steps=500, 
   logging_steps=500, 
-  learning_rate=1e-4,
+  learning_rate=1e-4, 
   warmup_steps=0,
   save_total_limit=2, 
   dataloader_num_workers=16, 

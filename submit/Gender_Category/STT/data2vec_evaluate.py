@@ -32,7 +32,7 @@ from transformers import Data2VecAudioForCTC
 
 from datetime import datetime
 
-chars_to_ignore_regex = '[\,\?\.\!\-\;\:\"\“\%\‘\”\�\’\']'
+chars_to_ignore_regex = '[\,\~\?\.\!\-\;\:\"\“\%\‘\”\�\’\']'
 
 def remove_special_characters(batch):
     batch["sentence"] = re.sub(chars_to_ignore_regex, '', batch["sentence"]).lower()
@@ -70,7 +70,7 @@ class Torch_Speech_Service:
         # load pretrained processor and model
         print("Initializing model ...")
         self.processor = Wav2Vec2Processor.from_pretrained(
-            "./processor" ####
+            "./models/processor" ####
         )
 
         # Choose Model
@@ -217,18 +217,18 @@ def compare(label, pred):
 # Settings
 NUM_WORKERS = 4
 # data2vec
-model_path = <MODEL_PATH>
-lm_path = "./newmm_4gram.bin"
+model_path = ""#new_model_path
+lm_path = "./models/newmm_4gram.bin"
 
 
 speech_service = Torch_Speech_Service(model_path, lm_path, "cuda")
 
 cv11_test_paths = [
-                  "./test.csv"
+                  "/home/nattanaa/ASR_train/mozilla/normal/balanced_3/balanced_same_sentence_test.csv"
                  ]
 
 audio_paths = [
-              "./Methods_and_Measures/commonvoice11/data/clips_wav"
+              "/home/nuttawac/our-voices-model-competition/submit/Gender_Category/data/commonvoice11_2/clips"
               ]
 
 for i in range(len(cv11_test_paths)):
