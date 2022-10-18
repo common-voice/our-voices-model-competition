@@ -49,7 +49,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - All validated.tsv files have been used. first 80% of files used for train and the remaining 20% for test. Download my splits from releases [here](https://github.com/dkakaie/our-voices-model-competition) or prepare yours.
 
-- Unfortunately CV8-11 contains non standard Kurdish text which needed to be corrected prior to training. To this end I have used [Asosoft library](https://github.com/AsoSoft/AsoSoft-Library) to normalize the sentences. Abdulhadi Riwandizi provided some tricks which seem to have corrected almost all errors. (Thanks!)
+- Unfortunately CV8-11 contains non standard Kurdish text which needed to be corrected prior to training. To this end I have used [Asosoft library](https://github.com/AsoSoft/AsoSoft-Library) to normalize the sentences. [Abdulhadi](https://github.com/hadihaji) provided some tricks which seem to have corrected almost all errors. (Thanks!)
 
 - Asosoft has released [a subset of their internal dataset](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) for public use. I have tested the final model on this.
 
