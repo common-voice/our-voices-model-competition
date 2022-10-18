@@ -21,7 +21,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - Small and efficient, 140MB checkpoint, 70MB when converted to ONNX or Nemo format.
 
-- Faster than realtime on CPU 🔥
+- Faster than realtime on CPU, 11x on i3-6100 🔥
 
 - Python-ready, C# Windows port and Word addin with live transcription on its way
 
