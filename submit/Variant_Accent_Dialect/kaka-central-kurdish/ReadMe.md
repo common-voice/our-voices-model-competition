@@ -31,15 +31,9 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
   
 
 | Decoder | WER |
-
-|--|--|
-
+|---|---|
 | greedy | 0.0 |
-
-| kenlm| 0.0 |
-
-  
-  
+| kenlm | 0.0 |
 
 # Building blocks
 
