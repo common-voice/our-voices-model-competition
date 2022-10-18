@@ -1,7 +1,6 @@
 # Devisa: STT-models for different Romansh dialects
 
 In this folder you can find our submission for the competition. The source-code repository is available as a submodule here.
-A copy is also provided separately just in case this is not sufficient.
 
 All of the models that were created for the project are available on the [project's Gitlab package repository](https://gitlab.com/prvInSpace/romansh-stt-project/-/packages)
 in a tflite format. The KenLM language models created for each of the dialects are also available there and the custom splits of the Common Voice datasets.
