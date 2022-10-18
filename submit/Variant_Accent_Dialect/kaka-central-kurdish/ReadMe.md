@@ -57,7 +57,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - Checkout Wandb training [logs](https://wandb.ai/greenbase/ASR-CV-Competition/runs/7jw4zrk8?workspace=user-).
 
-- Download best performing pretrained model from [here](https://github.com/dkakaie/our-voices-model-competition)
+- Download ready-to-use epoch 110 model from [here](https://github.com/dkakaie/our-voices-model-competition) or the best performing one from Wandb. You'll have to convert the checkpoint to nemo before inference or change inference code to load from checkpoint instead of nemo model.
 
 - LM boosting uses a char KenLM model I trained on [Asosoft text corpus](https://github.com/AsoSoft/AsoSoft-Text-Corpus) (o=5) weighting 31MB.
 
