@@ -1,0 +1,3 @@
+[submodule "submit/Variant_Accent_Dialect/Devisa/source-code"]
+	path = submit/Variant_Accent_Dialect/Devisa/source-code
+	url = https://gitlab.com/prvInSpace/romansh-stt-project
