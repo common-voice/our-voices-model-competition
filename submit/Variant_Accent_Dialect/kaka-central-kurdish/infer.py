@@ -27,17 +27,25 @@ def main():
             print(f'{file} does not exist, skipped it')
             args.files.remove(file)
 
+    from pyctcdecode import build_ctcdecoder
+    print ('loading decoder')
+    decoder = build_ctcdecoder(model.decoder.vocabulary)
     start = datetime.datetime.now()
-    result = model.transcribe(paths2audio_files=args.files, batch_size=max(
-        os.cpu_count(), 1), logprobs=False)
-    end = datetime.datetime.now()
-
+    logits = model.transcribe(paths2audio_files=args.files, batch_size=max(
+        os.cpu_count(), 1), logprobs=True)
+    
     table = PrettyTable()
-    table.add_column("File", args.files)
-    table.add_column("Text", result)
+    import multiprocessing
 
+    with multiprocessing.get_context("fork").Pool() as pool:
+        preds = decoder.decode_batch(pool, logits)
+    
+    table.add_column("File", args.files)
+    table.add_column("Text", preds)
+    print (table)
+
+    end = datetime.datetime.now()
     delta = end - start
-    print(table)
     print(f'Took {delta.total_seconds()} seconds.')
 
 
