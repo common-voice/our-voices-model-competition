@@ -77,7 +77,7 @@ self.processor = Wav2Vec2Processor.from_pretrained("./train/processor")
 model_path = <MODEL_PATH>
 lm_path = "./train/newmm_4gram.bin" 
 
-# to reproduce, you must first specify a dataset
+# you must first specify a dataset
 dataset_name = "dataset_1"
 cv11_test_paths = [
                   "../data/commonvoice11/annotation/dataset_1/test.csv" # Test set
