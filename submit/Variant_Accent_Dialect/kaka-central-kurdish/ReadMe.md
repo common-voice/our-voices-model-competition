@@ -31,8 +31,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
   | Epoch | WER | Artifact version | Download checkpoint |
   |---|---|---|---|
   | 110 | 0.0985 |47|https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v47/files|
-  | 117 | 0.0924 |51|https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v51/files|
-  | 299 | 0.071 |71|https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v71/files|
+  | 308 | 0.07 |72|https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v72/files|
 
 - Results on [Asosoft corpus](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) at **epoch 110**. Alpha and Beta were tuned using [Optuna](https://github.com/optuna/optuna)
 
@@ -48,7 +47,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - [Quartznet](https://arxiv.org/abs/1910.10261) network
 
-- Finetuned a [pretrained English model](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/stt_es_quartznet15x5) by Nvidia on CV11 Central Kurdish
+- Finetuned a [pretrained English Quartznet model](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/stt_es_quartznet15x5) by Nvidia on CV11 Central Kurdish
 
 - All validated.tsv files have been used. first 80% of files used for train and the remaining 20% for test. Download my splits from releases [here](https://github.com/dkakaie/our-voices-model-competition) or prepare yours.
 
@@ -56,7 +55,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - Asosoft has released [a subset of their internal dataset](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) for public use. I have tested the final model on this.
 
-- ~~The python version lacks LM based decoding at the moment. However a .NET version of the software has been developed which employs a very small KenLM model leading to lower WER.~~ Decoding with language model is supported. In this submission [pyctcdecode](https://github.com/kensho-technologies/pyctcdecode) is used, please refer to the corresponding project for more information.
+- Decoding with language model is also supported. In this submission [pyctcdecode](https://github.com/kensho-technologies/pyctcdecode) is used, please refer to the corresponding project for more information.
 
 - Checkout Wandb training [logs](https://wandb.ai/greenbase/ASR-CV-Competition/runs/7jw4zrk8?workspace=user-).
 
@@ -64,7 +63,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - LM boosting uses a char KenLM model I trained on [Asosoft text corpus](https://github.com/AsoSoft/AsoSoft-Text-Corpus) (o=5) weighting 31MB.
 
-- Training was done using a single RTX 3090 for about 20 hours. (batch size=64)
+- Training was done using a single RTX 3090 (batch size=64) for about 2 days and still ongoing.
 
 - Kurdish is phonetically consistent. This might have helped the network learn faster. Given the results and small dataset used, this can be a good starting point for future Kurdish STT work.
 
