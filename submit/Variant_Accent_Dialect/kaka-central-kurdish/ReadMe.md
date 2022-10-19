@@ -13,8 +13,22 @@
 
 Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (Northern Kurdish), both of which lack a STT solution primarily because they lack a voice corpus. This, however, has changed alot thanks to the Common Voice project. Now with the latest 11th release of this corpus we have access to 100+ hours for Sorani and 50+ hours for Kurmanji. This is the model I built for this competition.
 
-  
+### Category 
+<!--  choose the checkboxes most relevant to your request by filling out the checkboxes with [x] here -->
 
+- [ ] Gender 
+
+- [x] Variant Dialect or Accent
+
+- [ ] Methods and Measures 
+
+- [ ] Open
+### Band 
+<!--  choose the checkboxes most relevant to your request by filling out the checkboxes with [x] here -->
+
+- [ ]  Band A consists of languages with a corpus of 750 sentences or fewer.
+- [x]  Band B consists of languages with a corpus of between 751 and 2,000 sentences.
+- [ ]  Band C consists of languages with a corpus of more than 2,001 sentences.
 # TLDR;🤌
 
   
