@@ -53,9 +53,9 @@ _LANGUAGES = {
 
 #preprocess table
 import pandas as pd
-df_dev= pd.read_csv("/home/nattanaa/ASR_train/mozilla/normal/balanced_3/balanced_same_sentence_dev.csv")
-df_test= pd.read_csv("/home/nattanaa/ASR_train/mozilla/normal/balanced_3/balanced_same_sentence_test.csv")
-df_train= pd.read_csv("/home/nattanaa/ASR_train/mozilla/normal/balanced_3/balanced_same_sentence_train.csv")
+df_dev= pd.read_csv("../data/commonvoice11/annotation/dataset_1/dev.csv")
+df_test= pd.read_csv("../data/commonvoice11/annotation/dataset_1/test.csv")
+df_train= pd.read_csv("../data/commonvoice11/annotation/dataset_1/train.csv")
 df_dev=df_dev[['path','sentence']]
 df_test=df_test[['path','sentence']]
 df_train=df_train[['path','sentence']]
@@ -128,7 +128,7 @@ class CommonVoice(datasets.GeneratorBasedBuilder):
 
     def _split_generators(self, dl_manager):
         """Returns SplitGenerators."""
-        abs_path_to_clips = "../data/commonvoice11/clips" #"/home/nuttawac/our-voices-model-competition/submit/Gender_Category/data/commonvoice11_2/clips" 
+        abs_path_to_clips = "../data/commonvoice11/clips"  
 
         return [
             datasets.SplitGenerator(

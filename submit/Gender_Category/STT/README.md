@@ -16,7 +16,7 @@ Then, download followings or download sh file
 ```
 bash ./setup.sh
 ```
-This will automatically download the essential files for model training.
+This will automatically download the essential files for model training. 
 
 
 
@@ -27,17 +27,17 @@ Our base model is Data2VecAudio Model with a language modeling head on top for C
 
 ```py
 # pretrianed model 
-BASE_MODEL = "./data2vec-thai-pretrained"
+BASE_MODEL = "./data2vec-thai-pretrained/1"
 # load data
-mixed_train = load_dataset("./cv11.py", "th", split="train+validation")
-mixed_test = load_dataset("./cv11.py", "th", split="test")
+mixed_train = load_dataset("./cv11_dataloader.py", "th", split="train+validation")
+mixed_test = load_dataset("./cv11_dataloader.py", "th", split="test")
 # processor
-processor = Wav2Vec2Processor.from_pretrained("./processor")
+processor = Wav2Vec2Processor.from_pretrained("./models/processor")
 # import Waveaugment
 import sys
-sys.path.append("./WavAugment")
+sys.path.append("./models/WavAugment")
 # clips path
-abs_path_to_clips = "./Methods_and_Measures/commonvoice11/data/clips_wav" 
+abs_path_to_clips = "../data/commonvoice11/clips" 
 ```
 
 For our trained models can be downloaded below:
@@ -63,19 +63,20 @@ Model after upsampling training set:
 #
 ```py
 # processor
-self.processor = Wav2Vec2Processor.from_pretrained("./processor")
+self.processor = Wav2Vec2Processor.from_pretrained("./models/processor")
 
 # model 
 model_path = <MODEL_PATH>
-lm_path = "./newmm_4gram.bin" 
+lm_path = "./models/newmm_4gram.bin" 
 
-# test set 
+# to reproduce, you must first specify a dataset
+dataset_name = "dataset_1"
 cv11_test_paths = [
-                  "./test.csv"
+                  "../data/commonvoice11/annotation/dataset_1/test.csv" # Test set
                  ]
-# clips path
+
 audio_paths = [
-              "./Methods_and_Measures/commonvoice11/data/clips_wav"
+              "../data/commonvoice11/clips/clips_wav"
               ]
 
 ```

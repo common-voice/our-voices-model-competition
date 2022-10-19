@@ -190,11 +190,11 @@ def evaluate(paths, references, speech_service, do_postprocess=True, tokenize_en
     # return cer_result, wer_result, predicts, clean_references
     
     df = pd.DataFrame({'path': paths,
-                       'sentence': clean_references,
+                       'sentence': clean_references, 
                        'prediction': predicts,
-                       'wer': wer_results,
+                       'wer': wer_results, 
                        'cer': cer_results,
-                       'gender': genders})
+                       'gender': genders}) 
 
     return df, cer_result, wer_result, wer_results, cer_results, predicts, clean_references
 
@@ -223,12 +223,14 @@ lm_path = "./models/newmm_4gram.bin"
 
 speech_service = Torch_Speech_Service(model_path, lm_path, "cuda")
 
+# to reproduce, you must first specify a dataset
+dataset_name = "dataset_1"
 cv11_test_paths = [
-                  "/home/nattanaa/ASR_train/mozilla/normal/balanced_3/balanced_same_sentence_test.csv"
+                  "../data/commonvoice11/annotation/dataset_1/test.csv" # Test set
                  ]
 
 audio_paths = [
-              "/home/nuttawac/our-voices-model-competition/submit/Gender_Category/data/commonvoice11_2/clips"
+              "../data/commonvoice11/clips/clips_wav"
               ]
 
 for i in range(len(cv11_test_paths)):
@@ -258,8 +260,7 @@ for i in range(len(cv11_test_paths)):
     # Compare word error
     df['word_diff'] = df.apply(lambda x: compare(x['sentence'], x['prediction']) if(x['wer'] > 0.) else None, axis=1)
 
-    dataset = cv11_test_path.split('/')[-2]
-    df.to_csv('./result.csv')
+    df.to_csv("./"+ dataset_name + '_result.csv')
    
     
     
