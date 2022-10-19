@@ -3,6 +3,8 @@
 echo "Install essential libraries"
 pip install -r ./requirements.txt
 
+cd ../data
+
 # echo "Download Thai-SER dataset"
 # Thai-SER
 wget https://github.com/vistec-AI/dataset-releases/releases/download/v1/studio1-10.zip -P ./raw
