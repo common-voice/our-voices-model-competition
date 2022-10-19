@@ -25,11 +25,14 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - Python-ready, C# Windows port and Word addin with live transcription on its way
 
+- Uses all ckb validated.tsv files (80/20%) data splits
+
 - Validation WER
   | Epoch | WER | Artifact version | Download |
   |---|---|---|---|
   | 110 | 0.0985 |47|https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v47/files|
   | 117 | 0.0924 |51|https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v51/files|
+  | 299 | 0.071 |71|https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v71/files|
 
 - Results on [Asosoft corpus](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) at **epoch 110**. Alpha and Beta were tuned using [Optuna](https://github.com/optuna/optuna)
 
