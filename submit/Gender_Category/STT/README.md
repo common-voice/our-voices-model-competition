@@ -32,15 +32,15 @@ Our base model is Data2VecAudio Model with a language modeling head on top for C
 
 ```py
 # pretrianed model 
-BASE_MODEL = "./models/data2vec-thai-pretrained/1"
+BASE_MODEL = "./train/data2vec-thai-pretrained/1"
 # load data
 mixed_train = load_dataset("./cv11_dataloader.py", "th", split="train+validation")
 mixed_test = load_dataset("./cv11_dataloader.py", "th", split="test")
 # processor
-processor = Wav2Vec2Processor.from_pretrained("./setup/processor")
+processor = Wav2Vec2Processor.from_pretrained("./train/processor")
 # import Waveaugment
 import sys
-sys.path.append("./setup/WavAugment")
+sys.path.append("./train/WavAugment")
 # clips path
 abs_path_to_clips = "../data/commonvoice11/clips" 
 ```
@@ -71,11 +71,11 @@ Model after upsampling training set:
 
 ```py
 # processor
-self.processor = Wav2Vec2Processor.from_pretrained("./setup/processor")
+self.processor = Wav2Vec2Processor.from_pretrained("./train/processor")
 
 # model 
 model_path = <MODEL_PATH>
-lm_path = "./setup/newmm_4gram.bin" 
+lm_path = "./train/newmm_4gram.bin" 
 
 # to reproduce, you must first specify a dataset
 dataset_name = "dataset_1"

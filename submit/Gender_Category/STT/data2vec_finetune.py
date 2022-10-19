@@ -1,7 +1,7 @@
 # Setting
 MODEL_PATH ="./models"
 MODEL_NAME = "new_model" # name your new model
-BASE_MODEL = "./models/data2vec-thai-pretrained/1" # pretrianed model
+BASE_MODEL = "./train/data2vec-thai-pretrained/1" # pretrianed model
 
 import wandb
 wandb.login()
@@ -54,7 +54,7 @@ mixed_test = mixed_test.map(remove_special_characters).map(clean_batch).map(th_t
 
 from transformers import Wav2Vec2Processor
 
-processor = Wav2Vec2Processor.from_pretrained("./setup/processor")
+processor = Wav2Vec2Processor.from_pretrained("./train/processor")
 
 import torchaudio
 
@@ -92,7 +92,7 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Union
 # import augment
 import sys
-sys.path.append("./setup/WavAugment") 
+sys.path.append("./train/WavAugment") 
 import augment
 
 @dataclass
