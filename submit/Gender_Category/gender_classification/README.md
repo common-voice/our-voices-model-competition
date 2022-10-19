@@ -58,8 +58,10 @@ bash ./load_dataset.sh
 We utilized Speechbraind to train the model.
 visit https://github.com/speechbrain/speechbrain/tree/main/templates/speaker_id
 
-Annotation files already provide in `./train/manifest`
+Annotation files already provided in `./train/manifest`. Annotation generator also provided in `./train/manifest/annotation_generator.ipynb`
 To reproduce our work, use this command
+
 ```py
+cd ./train
 python train.py train.yaml
 ```
