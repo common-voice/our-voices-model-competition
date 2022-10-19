@@ -30,14 +30,19 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 - Validation WER
   | Epoch | WER | Artifact version | Download checkpoint |
   |---|---|---|---|
-  | 110 | 0.0985 |47|https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v47/files|
-  | 308 | 0.07 |72|https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v72/files|
+  | 311 | 0.0703 |73|[Get from Wandb](https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v73/files)|
+  | 320 | 0.0678 |75|[Get from Wandb](https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v75/files)|
 
-- Results on [Asosoft corpus](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) at **epoch 110**. Alpha and Beta were tuned using [Optuna](https://github.com/optuna/optuna)
+- Results on [Asosoft corpus](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) at **epoch 311**. Alpha and Beta were tuned using [Optuna](https://github.com/optuna/optuna)
 
-  | LM | WER | Alpha | Beta |
-  |---|---|---|---|
-  | aso-large-char.binary | 0.3552 |-0.37516152894129784|-7.158291775224047|
+  |Decoder|Metric|LM|Distance|Alpha|Beta|
+  |---|---|---|---|---|---|
+  |**CTCLM**|**WER**|**rudaw-words.binary**|**0.3043**|**0.6785698739930361**|**7.450340924842905**|
+  |CTCLM|WER|aso-large-char.binary|0.3478|-0.8143531604631804|-2.199446473162692|
+  |Greedy|WER|N/A|0.3567|N/A|N/A|
+  |**CTCLM**|**CER**|**rudaw-words.binary**|**0.0533**|**0.6989895457688899**|**8.039499602634686**|
+  |Greedy|CER|N/A|0.0652|N/A|N/A|
+  |CTCLM|CER|aso-large-char.binary|0.0666|-0.22963118710288732|-8.518252714852693|
 
 # Building blocks
 
