@@ -1,0 +1,5204 @@
+{
+    "common_voice_th_25787917.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25787917.wav",
+        "duration": 3.6,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31866965.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31866965.wav",
+        "duration": 6.948,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34905860.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34905860.wav",
+        "duration": 8.46,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25721526.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25721526.wav",
+        "duration": 8.1,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25760968.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25760968.wav",
+        "duration": 3.204,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31911168.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31911168.wav",
+        "duration": 4.068,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25789753.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25789753.wav",
+        "duration": 5.364,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25749908.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25749908.wav",
+        "duration": 3.888,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28483141.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28483141.wav",
+        "duration": 2.772,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25827285.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25827285.wav",
+        "duration": 4.248,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25691696.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25691696.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25830251.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25830251.wav",
+        "duration": 3.996,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26198122.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26198122.wav",
+        "duration": 5.688,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25692792.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25692792.wav",
+        "duration": 3.564,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25726520.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25726520.wav",
+        "duration": 5.976,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25818503.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25818503.wav",
+        "duration": 3.96,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28026678.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28026678.wav",
+        "duration": 2.016,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25739057.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25739057.wav",
+        "duration": 3.456,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25796551.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25796551.wav",
+        "duration": 4.788,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_29346292.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_29346292.wav",
+        "duration": 3.096,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31866831.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31866831.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31885167.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31885167.wav",
+        "duration": 5.22,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_32972251.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_32972251.wav",
+        "duration": 3.168,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27796279.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27796279.wav",
+        "duration": 2.988,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28780790.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28780790.wav",
+        "duration": 2.988,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25822351.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25822351.wav",
+        "duration": 8.532,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25693557.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25693557.wav",
+        "duration": 6.768,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_33175368.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_33175368.wav",
+        "duration": 3.06,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25809961.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25809961.wav",
+        "duration": 5.256,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25092312.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25092312.wav",
+        "duration": 5.256,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25768991.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25768991.wav",
+        "duration": 5.724,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25809595.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25809595.wav",
+        "duration": 4.212,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25794251.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25794251.wav",
+        "duration": 3.456,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28756232.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28756232.wav",
+        "duration": 3.816,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25860640.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25860640.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25770376.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25770376.wav",
+        "duration": 2.736,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25761198.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25761198.wav",
+        "duration": 3.708,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25736913.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25736913.wav",
+        "duration": 3.564,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25694855.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25694855.wav",
+        "duration": 3.96,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_30554092.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30554092.wav",
+        "duration": 3.636,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25739693.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25739693.wav",
+        "duration": 3.204,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25817771.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25817771.wav",
+        "duration": 4.356,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25723043.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25723043.wav",
+        "duration": 4.932,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25754183.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25754183.wav",
+        "duration": 2.988,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25737908.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25737908.wav",
+        "duration": 3.42,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25843800.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25843800.wav",
+        "duration": 4.536,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28907924.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28907924.wav",
+        "duration": 2.52,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25697625.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25697625.wav",
+        "duration": 5.364,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25792972.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25792972.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25817204.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25817204.wav",
+        "duration": 6.048,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25727168.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25727168.wav",
+        "duration": 7.2,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25744258.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25744258.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25825241.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825241.wav",
+        "duration": 4.896,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25739019.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25739019.wav",
+        "duration": 2.88,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25766210.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25766210.wav",
+        "duration": 5.832,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25759937.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25759937.wav",
+        "duration": 4.392,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25869392.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25869392.wav",
+        "duration": 6.408,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25827864.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25827864.wav",
+        "duration": 2.88,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25807662.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25807662.wav",
+        "duration": 4.14,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25973802.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25973802.wav",
+        "duration": 7.2,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25763712.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25763712.wav",
+        "duration": 4.248,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25750343.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25750343.wav",
+        "duration": 6.48,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28748576.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28748576.wav",
+        "duration": 6.336,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_32126640.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_32126640.wav",
+        "duration": 3.24,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25722708.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25722708.wav",
+        "duration": 4.464,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_24737028.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24737028.wav",
+        "duration": 2.916,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25721971.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25721971.wav",
+        "duration": 5.112,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25748784.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748784.wav",
+        "duration": 6.444,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25831127.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25831127.wav",
+        "duration": 4.248,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25777854.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25777854.wav",
+        "duration": 3.24,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25749939.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25749939.wav",
+        "duration": 2.376,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25719955.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25719955.wav",
+        "duration": 4.248,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25725950.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25725950.wav",
+        "duration": 5.58,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31872084.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31872084.wav",
+        "duration": 2.916,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25776485.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25776485.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25824005.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25824005.wav",
+        "duration": 3.456,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25858545.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25858545.wav",
+        "duration": 4.14,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25830878.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25830878.wav",
+        "duration": 3.996,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25769356.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25769356.wav",
+        "duration": 5.256,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25782697.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25782697.wav",
+        "duration": 3.96,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25788976.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25788976.wav",
+        "duration": 5.076,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25802166.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25802166.wav",
+        "duration": 6.48,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25802174.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25802174.wav",
+        "duration": 4.464,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25825784.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825784.wav",
+        "duration": 3.024,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25825813.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825813.wav",
+        "duration": 3.456,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25761573.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25761573.wav",
+        "duration": 4.824,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25761619.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25761619.wav",
+        "duration": 3.708,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25770528.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25770528.wav",
+        "duration": 2.196,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25770529.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25770529.wav",
+        "duration": 3.6,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25736935.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25736935.wav",
+        "duration": 3.42,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25737036.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25737036.wav",
+        "duration": 5.292,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25794370.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25794370.wav",
+        "duration": 5.076,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25794374.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25794374.wav",
+        "duration": 5.292,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28698843.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28698843.wav",
+        "duration": 5.58,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28698844.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28698844.wav",
+        "duration": 3.6,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25787505.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25787505.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25787634.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25787634.wav",
+        "duration": 3.24,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_32362933.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_32362933.wav",
+        "duration": 3.348,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_32418056.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_32418056.wav",
+        "duration": 2.988,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25754222.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25754222.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25754282.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25754282.wav",
+        "duration": 4.608,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25965382.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25965382.wav",
+        "duration": 5.04,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_32327798.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_32327798.wav",
+        "duration": 3.528,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_32327961.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_32327961.wav",
+        "duration": 5.22,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34908281.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34908281.wav",
+        "duration": 5.616,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34908378.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34908378.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25844018.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25844018.wav",
+        "duration": 6.228,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25844019.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25844019.wav",
+        "duration": 4.248,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28745045.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28745045.wav",
+        "duration": 3.24,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30572483.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30572483.wav",
+        "duration": 4.5,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30572484.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30572484.wav",
+        "duration": 3.24,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25825799.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825799.wav",
+        "duration": 5.04,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25825800.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825800.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25714407.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25714407.wav",
+        "duration": 3.42,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25790319.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25790319.wav",
+        "duration": 6.372,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25750575.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25750575.wav",
+        "duration": 4.14,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25750615.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25750615.wav",
+        "duration": 4.248,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25809607.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25809607.wav",
+        "duration": 3.168,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25809613.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25809613.wav",
+        "duration": 3.888,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25759576.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25759576.wav",
+        "duration": 2.736,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25869617.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25869617.wav",
+        "duration": 4.896,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25869821.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25869821.wav",
+        "duration": 3.42,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25780558.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25780558.wav",
+        "duration": 4.248,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25786677.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25786677.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25786702.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25786702.wav",
+        "duration": 5.328,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25864303.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25864303.wav",
+        "duration": 7.056,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25864423.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25864423.wav",
+        "duration": 7.92,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25731367.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25731367.wav",
+        "duration": 4.428,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25731368.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25731368.wav",
+        "duration": 4.14,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25858434.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25858434.wav",
+        "duration": 4.5,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26189167.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26189167.wav",
+        "duration": 7.56,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26189195.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26189195.wav",
+        "duration": 3.888,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25747683.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25747683.wav",
+        "duration": 7.992,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25748193.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748193.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25763356.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25763356.wav",
+        "duration": 3.168,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31367915.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31367915.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31367919.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31367919.wav",
+        "duration": 4.68,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25773055.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25773055.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25773056.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25773056.wav",
+        "duration": 3.672,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25723369.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25723369.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25723373.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25723373.wav",
+        "duration": 2.448,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25808223.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25808223.wav",
+        "duration": 6.48,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_29385574.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_29385574.wav",
+        "duration": 6.876,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_29385632.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_29385632.wav",
+        "duration": 8.388,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25798227.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25798227.wav",
+        "duration": 4.716,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25739075.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25739075.wav",
+        "duration": 4.824,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25739282.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25739282.wav",
+        "duration": 6.984,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25823592.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25823592.wav",
+        "duration": 5.04,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25823596.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25823596.wav",
+        "duration": 4.788,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25792179.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25792179.wav",
+        "duration": 5.148,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25875843.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25875843.wav",
+        "duration": 4.68,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25876197.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25876197.wav",
+        "duration": 4.248,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25742215.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25742215.wav",
+        "duration": 3.456,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25742317.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25742317.wav",
+        "duration": 2.628,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25773193.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25773193.wav",
+        "duration": 4.104,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25773313.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25773313.wav",
+        "duration": 6.804,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25792117.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25792117.wav",
+        "duration": 3.96,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25798400.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25798400.wav",
+        "duration": 3.348,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25798440.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25798440.wav",
+        "duration": 3.636,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25754142.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25754142.wav",
+        "duration": 4.716,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25786609.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25786609.wav",
+        "duration": 5.436,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25786711.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25786711.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26001307.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26001307.wav",
+        "duration": 4.392,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26001480.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26001480.wav",
+        "duration": 6.192,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25765259.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25765259.wav",
+        "duration": 3.312,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25869418.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25869418.wav",
+        "duration": 5.688,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25748035.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748035.wav",
+        "duration": 4.68,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25695943.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695943.wav",
+        "duration": 4.068,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695947.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695947.wav",
+        "duration": 3.78,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25802281.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25802281.wav",
+        "duration": 5.364,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25802282.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25802282.wav",
+        "duration": 2.34,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25766704.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25766704.wav",
+        "duration": 4.248,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25792496.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25792496.wav",
+        "duration": 4.536,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25961446.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25961446.wav",
+        "duration": 4.68,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25961449.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25961449.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25705708.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25705708.wav",
+        "duration": 3.456,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25705711.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25705711.wav",
+        "duration": 3.06,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25818123.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25818123.wav",
+        "duration": 5.904,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25726353.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25726353.wav",
+        "duration": 7.236,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25726384.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25726384.wav",
+        "duration": 4.536,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25812583.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25812583.wav",
+        "duration": 2.988,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25735610.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25735610.wav",
+        "duration": 3.78,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25735611.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25735611.wav",
+        "duration": 3.852,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25811931.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25811931.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25743173.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25743173.wav",
+        "duration": 3.636,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25772951.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25772951.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25816073.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25816073.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25816082.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25816082.wav",
+        "duration": 3.492,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_29934544.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_29934544.wav",
+        "duration": 3.528,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_29934565.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_29934565.wav",
+        "duration": 3.816,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28538355.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28538355.wav",
+        "duration": 2.52,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28538378.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28538378.wav",
+        "duration": 4.356,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25739081.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25739081.wav",
+        "duration": 3.096,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25739083.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25739083.wav",
+        "duration": 2.916,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25739267.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25739267.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25799910.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25799910.wav",
+        "duration": 3.708,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25799942.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25799942.wav",
+        "duration": 3.168,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25799945.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25799945.wav",
+        "duration": 4.716,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25740555.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25740555.wav",
+        "duration": 5.4,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25752876.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25752876.wav",
+        "duration": 3.744,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25864622.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25864622.wav",
+        "duration": 7.236,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25864656.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25864656.wav",
+        "duration": 3.888,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25864792.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25864792.wav",
+        "duration": 4.5,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25727095.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25727095.wav",
+        "duration": 4.14,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25727097.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25727097.wav",
+        "duration": 4.14,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25727099.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25727099.wav",
+        "duration": 3.78,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_33994305.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_33994305.wav",
+        "duration": 3.276,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_33994332.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_33994332.wav",
+        "duration": 7.848,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_33994331.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_33994331.wav",
+        "duration": 3.096,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25792246.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25792246.wav",
+        "duration": 5.544,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25792319.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25792319.wav",
+        "duration": 3.348,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25792322.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25792322.wav",
+        "duration": 4.752,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25750680.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25750680.wav",
+        "duration": 8.064,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25750753.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25750753.wav",
+        "duration": 4.284,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25809287.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25809287.wav",
+        "duration": 6.552,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25809299.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25809299.wav",
+        "duration": 4.788,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25809331.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25809331.wav",
+        "duration": 4.032,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25856690.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25856690.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25856712.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25856712.wav",
+        "duration": 3.78,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25667073.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25667073.wav",
+        "duration": 3.636,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25667075.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25667075.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25667077.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25667077.wav",
+        "duration": 5.04,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25725731.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25725731.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25725732.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25725732.wav",
+        "duration": 5.292,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25720236.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25720236.wav",
+        "duration": 5.76,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25720238.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25720238.wav",
+        "duration": 5.22,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_29254611.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_29254611.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_29254784.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_29254784.wav",
+        "duration": 3.888,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25811390.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25811390.wav",
+        "duration": 5.256,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25764693.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25764693.wav",
+        "duration": 4.752,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25724402.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25724402.wav",
+        "duration": 6.408,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25724458.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25724458.wav",
+        "duration": 9.72,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28445255.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28445255.wav",
+        "duration": 7.092,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28743290.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28743290.wav",
+        "duration": 4.068,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28743293.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28743293.wav",
+        "duration": 2.988,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25638739.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25638739.wav",
+        "duration": 4.968,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25638740.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25638740.wav",
+        "duration": 4.356,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25638741.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25638741.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25691578.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25691578.wav",
+        "duration": 2.88,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25691580.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25691580.wav",
+        "duration": 2.448,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25872296.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25872296.wav",
+        "duration": 2.628,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25872340.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25872340.wav",
+        "duration": 4.32,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25872612.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25872612.wav",
+        "duration": 7.56,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25648598.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25648598.wav",
+        "duration": 3.636,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25648599.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25648599.wav",
+        "duration": 3.78,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25648600.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25648600.wav",
+        "duration": 3.348,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25717495.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25717495.wav",
+        "duration": 3.996,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25717691.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25717691.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25630737.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25630737.wav",
+        "duration": 8.136,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28443822.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28443822.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28443870.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28443870.wav",
+        "duration": 4.896,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28443871.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28443871.wav",
+        "duration": 4.86,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25762241.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25762241.wav",
+        "duration": 7.416,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25762571.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25762571.wav",
+        "duration": 2.34,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_34905581.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34905581.wav",
+        "duration": 3.24,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34905694.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34905694.wav",
+        "duration": 4.32,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34909439.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34909439.wav",
+        "duration": 7.2,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25722494.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25722494.wav",
+        "duration": 3.132,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25722560.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25722560.wav",
+        "duration": 5.616,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25722583.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25722583.wav",
+        "duration": 3.42,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25825326.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825326.wav",
+        "duration": 3.492,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25825397.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825397.wav",
+        "duration": 5.868,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25868588.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25868588.wav",
+        "duration": 3.42,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25868617.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25868617.wav",
+        "duration": 4.32,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25807538.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25807538.wav",
+        "duration": 3.168,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25807677.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25807677.wav",
+        "duration": 3.96,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25807682.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25807682.wav",
+        "duration": 5.94,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25747638.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25747638.wav",
+        "duration": 7.02,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25747639.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25747639.wav",
+        "duration": 3.78,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28448797.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28448797.wav",
+        "duration": 4.428,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28448799.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28448799.wav",
+        "duration": 2.628,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28448910.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28448910.wav",
+        "duration": 7.416,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25823755.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25823755.wav",
+        "duration": 5.508,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25823758.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25823758.wav",
+        "duration": 4.68,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25732201.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25732201.wav",
+        "duration": 3.708,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25847289.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25847289.wav",
+        "duration": 4.932,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25847309.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25847309.wav",
+        "duration": 3.204,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25847310.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25847310.wav",
+        "duration": 5.328,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25797377.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25797377.wav",
+        "duration": 5.04,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25797385.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25797385.wav",
+        "duration": 3.996,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25797460.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25797460.wav",
+        "duration": 2.448,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_30553789.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30553789.wav",
+        "duration": 3.6,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30553982.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30553982.wav",
+        "duration": 5.616,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30553984.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30553984.wav",
+        "duration": 6.228,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25812404.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25812404.wav",
+        "duration": 3.6,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25812465.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25812465.wav",
+        "duration": 2.952,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25725862.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25725862.wav",
+        "duration": 4.392,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25726038.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25726038.wav",
+        "duration": 2.556,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25750238.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25750238.wav",
+        "duration": 5.436,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25761870.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25761870.wav",
+        "duration": 4.248,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25761893.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25761893.wav",
+        "duration": 4.176,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25956397.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25956397.wav",
+        "duration": 5.22,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25748247.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748247.wav",
+        "duration": 4.572,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25748256.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748256.wav",
+        "duration": 5.436,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25748298.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748298.wav",
+        "duration": 6.192,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25800120.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25800120.wav",
+        "duration": 3.168,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25800501.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25800501.wav",
+        "duration": 5.4,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25755379.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25755379.wav",
+        "duration": 3.888,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25755391.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25755391.wav",
+        "duration": 7.056,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25831498.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25831498.wav",
+        "duration": 4.608,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25831698.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25831698.wav",
+        "duration": 5.616,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25724683.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25724683.wav",
+        "duration": 5.976,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25724790.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25724790.wav",
+        "duration": 3.168,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26086875.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26086875.wav",
+        "duration": 2.376,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26086880.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26086880.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26086882.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26086882.wav",
+        "duration": 6.12,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26086885.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26086885.wav",
+        "duration": 4.644,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28340192.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28340192.wav",
+        "duration": 9.576,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28340232.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28340232.wav",
+        "duration": 5.4,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28340334.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28340334.wav",
+        "duration": 4.428,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28340431.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28340431.wav",
+        "duration": 3.708,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31871211.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31871211.wav",
+        "duration": 3.6,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31871214.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31871214.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31871335.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31871335.wav",
+        "duration": 10.188,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31871374.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31871374.wav",
+        "duration": 5.22,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27734920.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27734920.wav",
+        "duration": 9.756,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27734963.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27734963.wav",
+        "duration": 3.24,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27734964.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27734964.wav",
+        "duration": 3.06,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27734965.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27734965.wav",
+        "duration": 5.688,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25755973.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25755973.wav",
+        "duration": 3.456,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25755978.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25755978.wav",
+        "duration": 4.428,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25755985.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25755985.wav",
+        "duration": 3.6,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25694677.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25694677.wav",
+        "duration": 3.96,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25694848.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25694848.wav",
+        "duration": 8.424,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25694853.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25694853.wav",
+        "duration": 5.22,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26187686.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26187686.wav",
+        "duration": 4.14,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26187714.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26187714.wav",
+        "duration": 3.528,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26187733.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26187733.wav",
+        "duration": 5.508,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26187739.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26187739.wav",
+        "duration": 4.248,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25711065.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25711065.wav",
+        "duration": 3.96,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25711067.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25711067.wav",
+        "duration": 5.22,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25961626.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25961626.wav",
+        "duration": 5.328,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25961630.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25961630.wav",
+        "duration": 4.032,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25961641.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25961641.wav",
+        "duration": 3.96,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25961650.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25961650.wav",
+        "duration": 3.744,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25870251.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25870251.wav",
+        "duration": 5.724,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25870255.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25870255.wav",
+        "duration": 4.968,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25746914.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746914.wav",
+        "duration": 5.508,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25746943.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746943.wav",
+        "duration": 6.12,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25746945.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746945.wav",
+        "duration": 5.688,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25736499.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25736499.wav",
+        "duration": 4.104,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25736572.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25736572.wav",
+        "duration": 5.904,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25736573.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25736573.wav",
+        "duration": 6.84,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25728413.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25728413.wav",
+        "duration": 3.096,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25728415.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25728415.wav",
+        "duration": 4.752,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25728416.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25728416.wav",
+        "duration": 4.752,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25728417.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25728417.wav",
+        "duration": 3.924,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25746702.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746702.wav",
+        "duration": 5.04,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27969562.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27969562.wav",
+        "duration": 9.576,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27969565.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27969565.wav",
+        "duration": 3.528,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25644021.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25644021.wav",
+        "duration": 5.976,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25829176.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25829176.wav",
+        "duration": 2.34,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26017824.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26017824.wav",
+        "duration": 6.516,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26017874.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26017874.wav",
+        "duration": 4.716,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26045192.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26045192.wav",
+        "duration": 6.336,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26045214.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26045214.wav",
+        "duration": 3.348,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26045278.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26045278.wav",
+        "duration": 3.456,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26045281.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26045281.wav",
+        "duration": 6.912,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25574473.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25574473.wav",
+        "duration": 3.78,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25574474.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25574474.wav",
+        "duration": 3.636,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25574476.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25574476.wav",
+        "duration": 5.328,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25748527.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748527.wav",
+        "duration": 5.544,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25749334.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25749334.wav",
+        "duration": 4.968,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25749337.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25749337.wav",
+        "duration": 4.212,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_34767328.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34767328.wav",
+        "duration": 6.948,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34768081.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34768081.wav",
+        "duration": 4.356,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34768167.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34768167.wav",
+        "duration": 4.248,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25691374.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25691374.wav",
+        "duration": 5.256,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25749072.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25749072.wav",
+        "duration": 6.048,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25749218.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25749218.wav",
+        "duration": 3.888,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25749354.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25749354.wav",
+        "duration": 5.976,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25854777.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25854777.wav",
+        "duration": 4.536,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25854925.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25854925.wav",
+        "duration": 4.068,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25974575.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25974575.wav",
+        "duration": 4.068,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25974589.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25974589.wav",
+        "duration": 3.528,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25974596.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25974596.wav",
+        "duration": 5.076,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25974597.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25974597.wav",
+        "duration": 3.816,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25825642.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825642.wav",
+        "duration": 5.04,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25825892.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825892.wav",
+        "duration": 3.636,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25825945.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25825945.wav",
+        "duration": 3.6,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25736081.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25736081.wav",
+        "duration": 2.628,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31867744.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31867744.wav",
+        "duration": 2.736,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31867745.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31867745.wav",
+        "duration": 8.388,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31867752.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31867752.wav",
+        "duration": 4.356,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31867814.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31867814.wav",
+        "duration": 3.6,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31833567.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31833567.wav",
+        "duration": 4.752,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31906382.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31906382.wav",
+        "duration": 2.304,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31906385.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31906385.wav",
+        "duration": 2.952,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31906411.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31906411.wav",
+        "duration": 3.204,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25679038.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25679038.wav",
+        "duration": 6.912,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25679052.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25679052.wav",
+        "duration": 4.356,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25679055.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25679055.wav",
+        "duration": 6.588,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31881678.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31881678.wav",
+        "duration": 2.736,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31881690.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31881690.wav",
+        "duration": 1.98,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25634103.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25634103.wav",
+        "duration": 5.292,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25634104.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25634104.wav",
+        "duration": 4.932,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25634105.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25634105.wav",
+        "duration": 4.968,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25634107.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25634107.wav",
+        "duration": 6.12,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25671571.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25671571.wav",
+        "duration": 5.832,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25671572.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25671572.wav",
+        "duration": 3.852,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25671573.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25671573.wav",
+        "duration": 4.752,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25671576.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25671576.wav",
+        "duration": 5.472,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25775114.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25775114.wav",
+        "duration": 3.78,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25775357.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25775357.wav",
+        "duration": 3.312,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25775360.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25775360.wav",
+        "duration": 3.384,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25775487.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25775487.wav",
+        "duration": 4.032,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25966295.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25966295.wav",
+        "duration": 3.564,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25966316.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25966316.wav",
+        "duration": 4.572,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25966330.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25966330.wav",
+        "duration": 4.392,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25966347.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25966347.wav",
+        "duration": 7.236,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25856865.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25856865.wav",
+        "duration": 2.88,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25856989.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25856989.wav",
+        "duration": 5.256,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25848136.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25848136.wav",
+        "duration": 4.5,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25848154.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25848154.wav",
+        "duration": 5.364,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25848176.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25848176.wav",
+        "duration": 6.228,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25723071.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25723071.wav",
+        "duration": 3.168,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25723285.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25723285.wav",
+        "duration": 2.988,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28237961.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28237961.wav",
+        "duration": 7.02,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28238023.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28238023.wav",
+        "duration": 9.9,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25672495.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25672495.wav",
+        "duration": 2.988,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25672499.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25672499.wav",
+        "duration": 3.456,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23856602.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23856602.wav",
+        "duration": 3.504,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23856605.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23856605.wav",
+        "duration": 4.056,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23856606.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23856606.wav",
+        "duration": 5.904,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25871078.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25871078.wav",
+        "duration": 4.716,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25871245.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25871245.wav",
+        "duration": 2.988,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25871309.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25871309.wav",
+        "duration": 5.328,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25730020.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25730020.wav",
+        "duration": 3.708,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25730021.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25730021.wav",
+        "duration": 4.104,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25730033.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25730033.wav",
+        "duration": 4.5,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_23655721.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23655721.wav",
+        "duration": 6.504,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23655723.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23655723.wav",
+        "duration": 8.112,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736344.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736344.wav",
+        "duration": 7.236,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736345.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736345.wav",
+        "duration": 5.22,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736346.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736346.wav",
+        "duration": 5.256,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736347.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736347.wav",
+        "duration": 7.956,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25677544.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25677544.wav",
+        "duration": 5.616,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25677545.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25677545.wav",
+        "duration": 5.508,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25677546.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25677546.wav",
+        "duration": 4.608,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25677547.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25677547.wav",
+        "duration": 4.608,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25665158.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25665158.wav",
+        "duration": 3.276,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25665160.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25665160.wav",
+        "duration": 9.936,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28320880.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28320880.wav",
+        "duration": 6.336,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26124981.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26124981.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26124983.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26124983.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26124984.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26124984.wav",
+        "duration": 6.804,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26124985.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26124985.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26125505.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26125505.wav",
+        "duration": 2.34,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26125506.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26125506.wav",
+        "duration": 5.76,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26125507.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26125507.wav",
+        "duration": 4.176,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26125509.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26125509.wav",
+        "duration": 6.768,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736358.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736358.wav",
+        "duration": 7.128,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736359.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736359.wav",
+        "duration": 3.456,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736360.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736360.wav",
+        "duration": 6.66,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736362.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736362.wav",
+        "duration": 6.768,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25770300.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25770300.wav",
+        "duration": 3.06,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25744455.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25744455.wav",
+        "duration": 2.808,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28357907.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28357907.wav",
+        "duration": 6.66,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28357974.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28357974.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28453507.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28453507.wav",
+        "duration": 5.976,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28453510.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28453510.wav",
+        "duration": 4.32,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26197379.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26197379.wav",
+        "duration": 5.724,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26197381.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26197381.wav",
+        "duration": 4.644,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26197383.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26197383.wav",
+        "duration": 4.5,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26197396.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26197396.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_34907359.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34907359.wav",
+        "duration": 8.064,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34907356.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34907356.wav",
+        "duration": 5.4,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34907457.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34907457.wav",
+        "duration": 10.44,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_34907470.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_34907470.wav",
+        "duration": 2.592,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25925980.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25925980.wav",
+        "duration": 4.32,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25925981.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25925981.wav",
+        "duration": 4.32,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25925985.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25925985.wav",
+        "duration": 4.428,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25769018.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25769018.wav",
+        "duration": 4.896,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25856054.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25856054.wav",
+        "duration": 6.3,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25856058.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25856058.wav",
+        "duration": 7.38,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25856069.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25856069.wav",
+        "duration": 7.596,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25856213.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25856213.wav",
+        "duration": 4.608,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25856222.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25856222.wav",
+        "duration": 4.5,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_24737141.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24737141.wav",
+        "duration": 2.52,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24737143.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24737143.wav",
+        "duration": 2.7,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24737144.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24737144.wav",
+        "duration": 2.628,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25813134.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25813134.wav",
+        "duration": 3.528,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25813200.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25813200.wav",
+        "duration": 2.628,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25713254.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25713254.wav",
+        "duration": 5.328,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25713257.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25713257.wav",
+        "duration": 4.824,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25713258.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25713258.wav",
+        "duration": 4.104,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25709153.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25709153.wav",
+        "duration": 9.396,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25709154.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25709154.wav",
+        "duration": 4.968,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25709155.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25709155.wav",
+        "duration": 4.896,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25709157.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25709157.wav",
+        "duration": 5.22,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25730625.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25730625.wav",
+        "duration": 4.32,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25731115.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25731115.wav",
+        "duration": 4.536,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25731117.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25731117.wav",
+        "duration": 4.14,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28101393.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28101393.wav",
+        "duration": 5.868,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28106942.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28106942.wav",
+        "duration": 7.416,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28106976.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28106976.wav",
+        "duration": 4.428,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28133974.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28133974.wav",
+        "duration": 4.176,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28133986.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28133986.wav",
+        "duration": 3.06,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23655656.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23655656.wav",
+        "duration": 5.376,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23655657.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23655657.wav",
+        "duration": 4.896,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23676755.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23676755.wav",
+        "duration": 4.584,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23676756.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23676756.wav",
+        "duration": 5.304,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23676757.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23676757.wav",
+        "duration": 3.696,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23676758.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23676758.wav",
+        "duration": 3.216,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25708884.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25708884.wav",
+        "duration": 2.448,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25708886.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25708886.wav",
+        "duration": 2.556,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25708887.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25708887.wav",
+        "duration": 2.7,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25708888.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25708888.wav",
+        "duration": 5.58,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25768729.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25768729.wav",
+        "duration": 4.32,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25768776.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25768776.wav",
+        "duration": 3.348,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25768778.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25768778.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25784934.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25784934.wav",
+        "duration": 5.904,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25784969.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25784969.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25558935.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25558935.wav",
+        "duration": 2.628,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25794666.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25794666.wav",
+        "duration": 3.384,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25795224.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25795224.wav",
+        "duration": 5.076,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25795308.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25795308.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25795357.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25795357.wav",
+        "duration": 5.616,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26085878.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26085878.wav",
+        "duration": 5.04,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26085879.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26085879.wav",
+        "duration": 8.568,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26085880.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26085880.wav",
+        "duration": 4.716,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26085881.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26085881.wav",
+        "duration": 2.808,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26085882.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26085882.wav",
+        "duration": 3.96,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25676076.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25676076.wav",
+        "duration": 3.276,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25676081.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25676081.wav",
+        "duration": 5.076,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25768927.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25768927.wav",
+        "duration": 5.688,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25768952.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25768952.wav",
+        "duration": 4.644,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25832582.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25832582.wav",
+        "duration": 5.256,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25832794.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25832794.wav",
+        "duration": 3.096,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28491646.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28491646.wav",
+        "duration": 5.508,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28491686.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28491686.wav",
+        "duration": 4.716,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28491705.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28491705.wav",
+        "duration": 2.628,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25731213.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25731213.wav",
+        "duration": 4.752,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25710170.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25710170.wav",
+        "duration": 4.716,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25710172.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25710172.wav",
+        "duration": 6.192,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25724078.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25724078.wav",
+        "duration": 3.816,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25724113.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25724113.wav",
+        "duration": 5.328,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25724334.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25724334.wav",
+        "duration": 5.436,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_24736363.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736363.wav",
+        "duration": 4.032,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736364.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736364.wav",
+        "duration": 3.024,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736365.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736365.wav",
+        "duration": 3.96,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25697315.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25697315.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25652436.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25652436.wav",
+        "duration": 6.408,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25652437.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25652437.wav",
+        "duration": 6.192,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25652438.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25652438.wav",
+        "duration": 4.824,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25652439.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25652439.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25652440.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25652440.wav",
+        "duration": 8.1,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25746642.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746642.wav",
+        "duration": 3.348,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25746687.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746687.wav",
+        "duration": 6.552,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25746693.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746693.wav",
+        "duration": 3.096,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25746761.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746761.wav",
+        "duration": 6.3,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28222843.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28222843.wav",
+        "duration": 7.92,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28222865.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28222865.wav",
+        "duration": 3.528,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28222867.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28222867.wav",
+        "duration": 5.76,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28222869.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28222869.wav",
+        "duration": 4.14,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25771140.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25771140.wav",
+        "duration": 3.06,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25771246.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25771246.wav",
+        "duration": 5.256,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25849631.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25849631.wav",
+        "duration": 6.516,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25863991.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25863991.wav",
+        "duration": 2.16,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25864103.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25864103.wav",
+        "duration": 4.14,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25864199.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25864199.wav",
+        "duration": 2.556,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736413.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736413.wav",
+        "duration": 6.516,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736414.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736414.wav",
+        "duration": 6.12,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736416.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736416.wav",
+        "duration": 6.336,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_24736420.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_24736420.wav",
+        "duration": 4.86,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25632017.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25632017.wav",
+        "duration": 5.04,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25632018.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25632018.wav",
+        "duration": 4.5,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25632021.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25632021.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25632023.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25632023.wav",
+        "duration": 3.348,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26559740.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26559740.wav",
+        "duration": 2.736,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26559741.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26559741.wav",
+        "duration": 2.628,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26559742.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26559742.wav",
+        "duration": 4.14,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26559743.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26559743.wav",
+        "duration": 6.408,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26559744.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26559744.wav",
+        "duration": 2.376,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25747891.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25747891.wav",
+        "duration": 3.708,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25747994.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25747994.wav",
+        "duration": 3.132,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25748175.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748175.wav",
+        "duration": 4.68,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25748417.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748417.wav",
+        "duration": 4.644,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25812724.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25812724.wav",
+        "duration": 4.716,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25812792.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25812792.wav",
+        "duration": 2.88,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26311967.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26311967.wav",
+        "duration": 5.832,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26311968.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26311968.wav",
+        "duration": 5.076,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26311970.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26311970.wav",
+        "duration": 3.456,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26311971.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26311971.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26311972.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26311972.wav",
+        "duration": 5.76,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_30478034.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30478034.wav",
+        "duration": 6.048,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_30478071.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30478071.wav",
+        "duration": 3.096,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_30478090.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30478090.wav",
+        "duration": 4.5,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_30478116.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30478116.wav",
+        "duration": 5.58,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_30478229.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30478229.wav",
+        "duration": 4.68,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26059193.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26059193.wav",
+        "duration": 3.24,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26059194.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26059194.wav",
+        "duration": 3.528,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26059195.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26059195.wav",
+        "duration": 3.96,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26059196.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26059196.wav",
+        "duration": 5.508,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26059197.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26059197.wav",
+        "duration": 3.456,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25669079.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25669079.wav",
+        "duration": 2.808,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25669080.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25669080.wav",
+        "duration": 3.24,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25669083.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25669083.wav",
+        "duration": 5.4,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25669086.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25669086.wav",
+        "duration": 6.408,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26178843.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26178843.wav",
+        "duration": 5.112,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26178844.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26178844.wav",
+        "duration": 4.464,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26178896.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26178896.wav",
+        "duration": 3.492,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26178959.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26178959.wav",
+        "duration": 5.256,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26178977.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26178977.wav",
+        "duration": 3.924,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28442112.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28442112.wav",
+        "duration": 5.976,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28442114.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28442114.wav",
+        "duration": 5.328,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28442117.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28442117.wav",
+        "duration": 4.68,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28442138.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28442138.wav",
+        "duration": 3.816,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25694594.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25694594.wav",
+        "duration": 4.068,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25694597.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25694597.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25694693.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25694693.wav",
+        "duration": 5.256,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695397.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695397.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695403.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695403.wav",
+        "duration": 3.708,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31883024.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31883024.wav",
+        "duration": 4.608,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31883100.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31883100.wav",
+        "duration": 2.52,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31883150.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31883150.wav",
+        "duration": 2.736,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31883190.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31883190.wav",
+        "duration": 3.96,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31883262.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31883262.wav",
+        "duration": 2.34,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25696639.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25696639.wav",
+        "duration": 4.356,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25696640.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25696640.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25696766.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25696766.wav",
+        "duration": 3.708,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25740325.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25740325.wav",
+        "duration": 3.888,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25740351.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25740351.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26123248.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26123248.wav",
+        "duration": 5.292,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26123250.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26123250.wav",
+        "duration": 7.128,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26123251.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26123251.wav",
+        "duration": 3.996,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25748496.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25748496.wav",
+        "duration": 3.6,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31876885.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31876885.wav",
+        "duration": 2.916,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31876886.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31876886.wav",
+        "duration": 5.58,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31876887.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31876887.wav",
+        "duration": 2.088,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31877008.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31877008.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25761186.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25761186.wav",
+        "duration": 4.824,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25761215.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25761215.wav",
+        "duration": 4.392,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25761342.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25761342.wav",
+        "duration": 4.572,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25744547.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25744547.wav",
+        "duration": 4.428,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31907645.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31907645.wav",
+        "duration": 4.716,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31907647.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31907647.wav",
+        "duration": 5.94,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31907648.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31907648.wav",
+        "duration": 4.788,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31907649.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31907649.wav",
+        "duration": 5.04,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31907670.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31907670.wav",
+        "duration": 5.508,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31907693.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31907693.wav",
+        "duration": 3.348,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31887993.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31887993.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31888305.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31888305.wav",
+        "duration": 3.708,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31888391.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31888391.wav",
+        "duration": 2.628,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31888774.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31888774.wav",
+        "duration": 2.808,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31888890.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31888890.wav",
+        "duration": 2.376,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31888955.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31888955.wav",
+        "duration": 2.556,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28404533.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28404533.wav",
+        "duration": 6.156,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28404540.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28404540.wav",
+        "duration": 7.308,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28404567.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28404567.wav",
+        "duration": 7.02,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28404587.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28404587.wav",
+        "duration": 5.148,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28404666.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28404666.wav",
+        "duration": 9.576,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28404667.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28404667.wav",
+        "duration": 4.608,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25752384.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25752384.wav",
+        "duration": 4.428,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25752485.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25752485.wav",
+        "duration": 4.644,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25770687.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25770687.wav",
+        "duration": 3.42,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25770712.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25770712.wav",
+        "duration": 2.16,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25770733.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25770733.wav",
+        "duration": 3.528,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25770860.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25770860.wav",
+        "duration": 2.88,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27614115.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27614115.wav",
+        "duration": 8.136,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27614117.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27614117.wav",
+        "duration": 4.428,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27614118.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27614118.wav",
+        "duration": 4.86,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27614120.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27614120.wav",
+        "duration": 7.38,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28355928.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28355928.wav",
+        "duration": 3.636,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_27758098.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27758098.wav",
+        "duration": 4.968,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27758123.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27758123.wav",
+        "duration": 3.636,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27758124.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27758124.wav",
+        "duration": 4.356,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27758163.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27758163.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27758167.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27758167.wav",
+        "duration": 5.256,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27758178.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27758178.wav",
+        "duration": 8.136,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28502910.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28502910.wav",
+        "duration": 3.636,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28502938.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28502938.wav",
+        "duration": 2.916,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28502968.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28502968.wav",
+        "duration": 4.536,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28502988.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28502988.wav",
+        "duration": 3.708,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28502989.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28502989.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28507943.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28507943.wav",
+        "duration": 3.24,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25720493.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25720493.wav",
+        "duration": 6.084,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25720697.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25720697.wav",
+        "duration": 4.716,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25720816.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25720816.wav",
+        "duration": 3.42,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25653334.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25653334.wav",
+        "duration": 4.212,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25653337.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25653337.wav",
+        "duration": 5.22,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25718996.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25718996.wav",
+        "duration": 3.528,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25719181.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25719181.wav",
+        "duration": 7.776,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25746045.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746045.wav",
+        "duration": 6.12,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25746919.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746919.wav",
+        "duration": 4.536,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25746961.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25746961.wav",
+        "duration": 4.644,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25725399.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25725399.wav",
+        "duration": 3.816,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25725481.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25725481.wav",
+        "duration": 4.068,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26033828.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26033828.wav",
+        "duration": 2.736,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25779390.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25779390.wav",
+        "duration": 4.968,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25779441.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25779441.wav",
+        "duration": 3.96,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25779442.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25779442.wav",
+        "duration": 3.348,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_23699907.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23699907.wav",
+        "duration": 3.576,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_23699911.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23699911.wav",
+        "duration": 4.344,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25784667.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25784667.wav",
+        "duration": 6.3,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25784670.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25784670.wav",
+        "duration": 5.652,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25784775.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25784775.wav",
+        "duration": 10.548,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25785084.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25785084.wav",
+        "duration": 7.56,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25740931.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25740931.wav",
+        "duration": 3.204,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25741639.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25741639.wav",
+        "duration": 5.22,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25813282.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25813282.wav",
+        "duration": 8.028,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26198206.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26198206.wav",
+        "duration": 8.028,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26198207.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26198207.wav",
+        "duration": 5.76,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26198240.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26198240.wav",
+        "duration": 4.176,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26198247.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26198247.wav",
+        "duration": 7.56,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25704105.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25704105.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25797732.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25797732.wav",
+        "duration": 3.348,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25797773.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25797773.wav",
+        "duration": 3.6,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25715694.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25715694.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25715884.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25715884.wav",
+        "duration": 4.752,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25717630.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25717630.wav",
+        "duration": 4.572,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25717695.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25717695.wav",
+        "duration": 4.32,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25779297.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25779297.wav",
+        "duration": 6.516,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25779340.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25779340.wav",
+        "duration": 3.456,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25695787.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695787.wav",
+        "duration": 5.292,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695921.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695921.wav",
+        "duration": 4.968,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695923.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695923.wav",
+        "duration": 3.132,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695924.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695924.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25854505.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25854505.wav",
+        "duration": 5.328,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25854663.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25854663.wav",
+        "duration": 2.52,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25696127.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25696127.wav",
+        "duration": 6.552,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27246853.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27246853.wav",
+        "duration": 5.076,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27246854.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27246854.wav",
+        "duration": 3.708,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27246855.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27246855.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27246856.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27246856.wav",
+        "duration": 3.6,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27274923.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27274923.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27274924.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27274924.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_27274926.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_27274926.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25353378.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25353378.wav",
+        "duration": 6.444,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25358848.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25358848.wav",
+        "duration": 2.664,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26015876.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26015876.wav",
+        "duration": 2.88,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26015892.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26015892.wav",
+        "duration": 3.24,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25657892.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25657892.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25657926.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25657926.wav",
+        "duration": 4.608,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25796795.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25796795.wav",
+        "duration": 8.928,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25796798.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25796798.wav",
+        "duration": 4.608,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25893980.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25893980.wav",
+        "duration": 5.616,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25893981.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25893981.wav",
+        "duration": 3.528,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25893982.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25893982.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25893983.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25893983.wav",
+        "duration": 4.356,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25893984.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25893984.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25716743.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25716743.wav",
+        "duration": 5.868,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25736308.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25736308.wav",
+        "duration": 3.888,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25736428.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25736428.wav",
+        "duration": 4.14,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25751385.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25751385.wav",
+        "duration": 5.58,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25751541.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25751541.wav",
+        "duration": 4.716,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28653043.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28653043.wav",
+        "duration": 2.7,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28653049.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28653049.wav",
+        "duration": 8.208,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28653053.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28653053.wav",
+        "duration": 4.896,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28653062.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28653062.wav",
+        "duration": 2.916,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28653067.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28653067.wav",
+        "duration": 2.736,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28653076.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28653076.wav",
+        "duration": 3.636,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28653089.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28653089.wav",
+        "duration": 3.168,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25806374.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25806374.wav",
+        "duration": 2.736,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25806416.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25806416.wav",
+        "duration": 5.256,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25806505.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25806505.wav",
+        "duration": 3.276,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25765171.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25765171.wav",
+        "duration": 4.716,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25765190.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25765190.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25765224.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25765224.wav",
+        "duration": 2.448,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25765226.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25765226.wav",
+        "duration": 4.32,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_23654343.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_23654343.wav",
+        "duration": 4.344,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28100059.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28100059.wav",
+        "duration": 3.168,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25698972.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25698972.wav",
+        "duration": 6.012,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25698975.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25698975.wav",
+        "duration": 9.432,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25666031.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25666031.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25666032.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25666032.wav",
+        "duration": 4.356,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25666068.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25666068.wav",
+        "duration": 5.22,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25666072.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25666072.wav",
+        "duration": 3.78,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25716703.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25716703.wav",
+        "duration": 3.708,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25716970.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25716970.wav",
+        "duration": 4.5,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25717002.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25717002.wav",
+        "duration": 2.556,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25763142.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25763142.wav",
+        "duration": 6.48,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_31903857.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31903857.wav",
+        "duration": 3.96,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31903889.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31903889.wav",
+        "duration": 3.168,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31903909.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31903909.wav",
+        "duration": 4.284,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31904294.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31904294.wav",
+        "duration": 2.304,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31904310.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31904310.wav",
+        "duration": 3.924,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31904377.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31904377.wav",
+        "duration": 3.744,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_31904632.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_31904632.wav",
+        "duration": 3.492,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25651344.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25651344.wav",
+        "duration": 5.868,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25651345.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25651345.wav",
+        "duration": 5.076,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25651375.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25651375.wav",
+        "duration": 5.832,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25651378.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25651378.wav",
+        "duration": 4.824,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25750826.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25750826.wav",
+        "duration": 4.68,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25750870.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25750870.wav",
+        "duration": 3.888,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25751429.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25751429.wav",
+        "duration": 3.996,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25638889.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25638889.wav",
+        "duration": 5.4,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25638890.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25638890.wav",
+        "duration": 5.328,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25638891.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25638891.wav",
+        "duration": 6.336,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25638892.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25638892.wav",
+        "duration": 5.616,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26193770.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26193770.wav",
+        "duration": 3.6,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26193815.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26193815.wav",
+        "duration": 3.816,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26193898.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26193898.wav",
+        "duration": 4.14,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26194001.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26194001.wav",
+        "duration": 2.916,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26194029.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26194029.wav",
+        "duration": 7.056,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26194189.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26194189.wav",
+        "duration": 5.076,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26108800.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26108800.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26108805.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26108805.wav",
+        "duration": 4.428,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26108871.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26108871.wav",
+        "duration": 3.24,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26108872.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26108872.wav",
+        "duration": 5.796,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26108873.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26108873.wav",
+        "duration": 3.816,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26108891.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26108891.wav",
+        "duration": 6.516,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26108892.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26108892.wav",
+        "duration": 3.816,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26108894.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26108894.wav",
+        "duration": 4.536,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25726176.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25726176.wav",
+        "duration": 4.752,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25727000.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25727000.wav",
+        "duration": 7.416,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25697929.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25697929.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25694889.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25694889.wav",
+        "duration": 4.86,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695003.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695003.wav",
+        "duration": 4.356,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695004.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695004.wav",
+        "duration": 3.78,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695092.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695092.wav",
+        "duration": 3.276,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25695180.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25695180.wav",
+        "duration": 6.3,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25941360.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25941360.wav",
+        "duration": 2.7,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25941361.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25941361.wav",
+        "duration": 4.14,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25941362.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25941362.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25941363.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25941363.wav",
+        "duration": 4.104,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25941364.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25941364.wav",
+        "duration": 4.068,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25691160.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25691160.wav",
+        "duration": 5.868,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25691311.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25691311.wav",
+        "duration": 9.216,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25811685.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25811685.wav",
+        "duration": 4.176,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25812161.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25812161.wav",
+        "duration": 5.76,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25821075.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25821075.wav",
+        "duration": 3.996,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25773632.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25773632.wav",
+        "duration": 4.788,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25773676.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25773676.wav",
+        "duration": 4.86,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25774053.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25774053.wav",
+        "duration": 4.104,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25774059.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25774059.wav",
+        "duration": 7.596,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25682101.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25682101.wav",
+        "duration": 4.248,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25682105.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25682105.wav",
+        "duration": 5.76,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25682108.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25682108.wav",
+        "duration": 6.588,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25654471.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25654471.wav",
+        "duration": 3.636,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25654472.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25654472.wav",
+        "duration": 4.176,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25654566.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25654566.wav",
+        "duration": 4.788,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28182362.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28182362.wav",
+        "duration": 7.308,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28182363.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28182363.wav",
+        "duration": 4.428,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28182365.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28182365.wav",
+        "duration": 2.88,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28182382.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28182382.wav",
+        "duration": 4.608,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28182395.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28182395.wav",
+        "duration": 3.6,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28182511.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28182511.wav",
+        "duration": 4.608,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28182532.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28182532.wav",
+        "duration": 4.536,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28182536.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28182536.wav",
+        "duration": 5.976,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_26086512.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26086512.wav",
+        "duration": 7.596,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26086514.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26086514.wav",
+        "duration": 5.328,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26086515.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26086515.wav",
+        "duration": 5.868,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_26086516.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_26086516.wav",
+        "duration": 8.64,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25730472.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25730472.wav",
+        "duration": 4.5,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25730473.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25730473.wav",
+        "duration": 3.96,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25659872.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25659872.wav",
+        "duration": 8.712,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25659873.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25659873.wav",
+        "duration": 5.904,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25659875.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25659875.wav",
+        "duration": 4.536,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_25687552.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25687552.wav",
+        "duration": 5.22,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_25687629.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_25687629.wav",
+        "duration": 2.592,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_28847664.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28847664.wav",
+        "duration": 3.888,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28847705.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28847705.wav",
+        "duration": 3.996,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28847868.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28847868.wav",
+        "duration": 2.16,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28847881.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28847881.wav",
+        "duration": 3.24,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28847906.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28847906.wav",
+        "duration": 2.34,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28847907.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28847907.wav",
+        "duration": 2.016,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28847909.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28847909.wav",
+        "duration": 3.276,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_28847948.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_28847948.wav",
+        "duration": 2.196,
+        "gender": "Female",
+        "spk_id": "Female"
+    },
+    "common_voice_th_30573571.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30573571.wav",
+        "duration": 3.24,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30573704.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30573704.wav",
+        "duration": 4.896,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30573793.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30573793.wav",
+        "duration": 2.988,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30573922.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30573922.wav",
+        "duration": 8.748,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30573923.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30573923.wav",
+        "duration": 3.168,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30573938.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30573938.wav",
+        "duration": 3.168,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30573947.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30573947.wav",
+        "duration": 4.356,
+        "gender": "Male",
+        "spk_id": "Male"
+    },
+    "common_voice_th_30574033.wav": {
+        "wav": "{data_root}/commonvoice11/clips/clips_wav/common_voice_th_30574033.wav",
+        "duration": 2.916,
+        "gender": "Male",
+        "spk_id": "Male"
+    }
+}

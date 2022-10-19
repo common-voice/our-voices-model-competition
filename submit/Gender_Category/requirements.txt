@@ -2,4 +2,4 @@ ipykernel
 gdown
 librosa
 pandas
-https://github.com/speechbrain/speechbrain.git
+git+https://github.com/speechbrain/speechbrain.git
