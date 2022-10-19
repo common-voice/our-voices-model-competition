@@ -54,7 +54,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - Finetuned a [pretrained English Quartznet model](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/stt_es_quartznet15x5) by Nvidia on CV11 Central Kurdish
 
-- All validated.tsv files have been used. first 80% of files used for train and the remaining 20% for test. Download my splits from releases [here](https://github.com/dkakaie/our-voices-model-competition) or prepare yours.
+- All validated.tsv files have been used. first 80% of files used for train and the remaining 20% for validation. Download my splits from releases [here](https://github.com/dkakaie/our-voices-model-competition) or prepare yours.
 
 - Unfortunately CV8-11 contains non standard Kurdish text which needed to be corrected prior to training. To this end I have used [Asosoft library](https://github.com/AsoSoft/AsoSoft-Library) to normalize the sentences. [Abdulhadi](https://github.com/hadihaji) provided some tricks which seem to have corrected almost all errors. (Thanks!)
 
