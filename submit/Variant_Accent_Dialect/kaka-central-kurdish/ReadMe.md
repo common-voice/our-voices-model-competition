@@ -56,7 +56,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - All validated.tsv files have been used. first 80% of files used for train and the remaining 20% for validation. Download my splits from releases [here](https://github.com/dkakaie/our-voices-model-competition) or prepare yours.
 
-- Unfortunately CV8-11 contains non standard Kurdish text which needed to be corrected prior to training. To this end I have used [Asosoft library](https://github.com/AsoSoft/AsoSoft-Library) to normalize the sentences. [Abdulhadi](https://github.com/hadihaji) provided some tricks which seem to have corrected almost all errors. (Thanks!)
+- Unfortunately CV8-11 contains non standard Kurdish text which needed to be corrected prior to training. The most problematic one being U+06D5 instead of U+0647. To this end I have used [Asosoft library](https://github.com/AsoSoft/AsoSoft-Library) to normalize the sentences. [Abdulhadi](https://github.com/hadihaji) provided some tricks which seem to have corrected almost all errors. (Thanks!)
 
 - Asosoft has released [a subset of their internal dataset](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) for public use. I have tested the final model on this.
 
@@ -66,7 +66,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - Download ready-to-use epoch 311 model from releases [here](https://github.com/dkakaie/our-voices-model-competition/releases/tag/v0.1) or the best performing one from Wandb. You'll have to convert the checkpoint to nemo before inference or change inference code to load from checkpoint instead of nemo model. KenLM models I used are also available there.
 
-- LM boosting uses a char KenLM model I trained on [Asosoft text corpus](https://github.com/AsoSoft/AsoSoft-Text-Corpus) (o=5) weighting 31MB.
+- LM boosting results using two KenLM models are provided. A char KenLM model I trained on [Asosoft text corpus large version](https://github.com/AsoSoft/AsoSoft-Text-Corpus) weighting 31MB and one prepared for news articles from Rudaw. Both models are o=5.
 
 - Training was done using a single RTX 3090 (batch size=64) for about 2 days and still ongoing.
 
