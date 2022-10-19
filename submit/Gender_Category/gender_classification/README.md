@@ -5,11 +5,11 @@ This model is simply a stack of 5 TDNN modules on top with 2 layers of Fully-con
 For more information please visit, https://github.com/speechbrain/speechbrain/tree/main/templates/speaker_id
 
 ### Setup
-
+First, please execute the following command before start training or inference.
 ```
 bash ./setup.sh
 ```
-This script will automatically download the essential files and also install required libraries.
+This script will automatically download the essential files and also install dependencies from `../requirements.txt`
 
 ### Sample Usage
 - Model Initiation
@@ -28,10 +28,11 @@ See Also
 EncoderClassifier: https://github.com/speechbrain/speechbrain/blob/develop/speechbrain/pretrained/interfaces.py#L823
 
 - Inference
+To inference the pretrained model from our team, execute the following commands
 ```py
 audio_path = "path/to/audio.wav" # Path to audio file, Support only .wav format with 16kHz
 signal, fs = torchaudio.load(audio_path) 
-output_probs, score, index, class_pred = classifier.classify_batch(signal)
+output_probs, score, index, class_pred = model.classify_batch(signal)
 ```
 
 Sample Output
@@ -58,6 +59,7 @@ We utilized Speechbraind to train the model.
 visit https://github.com/speechbrain/speechbrain/tree/main/templates/speaker_id
 
 Annotation files already provide in `./train/manifest`
+To reproduce our work, use this command
 ```py
 python train.py train.yaml
 ```
