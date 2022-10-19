@@ -30,7 +30,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 - Validation WER
   | Epoch | WER | Artifact version | Download checkpoint |
   |---|---|---|---|
-  | 311 | 0.0703 |73|[Get from Wandb](https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v73/files)|
+  | 311 | 0.0703 |73|[Get from releases](https://github.com/dkakaie/our-voices-model-competition/releases/tag/v0.1)|
   | 320 | 0.0678 |75|[Get from Wandb](https://wandb.ai/greenbase/ASR-CV-Competition/artifacts/model/model-7jw4zrk8/v75/files)|
 
 - Results on [Asosoft speech corpus](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) at **epoch 311**. Alpha and Beta parameters for LM were tuned using [Optuna](https://github.com/optuna/optuna) for 1000 runs each.
@@ -62,9 +62,9 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - Decoding with language model is also supported. In this submission [pyctcdecode](https://github.com/kensho-technologies/pyctcdecode) is used, please refer to the corresponding project for more information.
 
-- Checkout Wandb training [logs](https://wandb.ai/greenbase/ASR-CV-Competition/runs/7jw4zrk8?workspace=user-).
+- Checkout Wandb training [report](https://wandb.ai/greenbase/ASR-CV-Competition/reports/Central-Kurdish-STT--VmlldzoyODEwNjYz?accessToken=f8u7n16uf58an1th0jlbedunwst36vltqkjtwqecgr4h2i09hu3jy1i1ej6q2hyb).
 
-- Download ready-to-use epoch 311 model from releases [here](https://github.com/dkakaie/our-voices-model-competition) or the best performing one from Wandb. You'll have to convert the checkpoint to nemo before inference or change inference code to load from checkpoint instead of nemo model. KenLM models I used are also available there.
+- Download ready-to-use epoch 311 model from releases [here](https://github.com/dkakaie/our-voices-model-competition/releases/tag/v0.1) or the best performing one from Wandb. You'll have to convert the checkpoint to nemo before inference or change inference code to load from checkpoint instead of nemo model. KenLM models I used are also available there.
 
 - LM boosting uses a char KenLM model I trained on [Asosoft text corpus](https://github.com/AsoSoft/AsoSoft-Text-Corpus) (o=5) weighting 31MB.
 
