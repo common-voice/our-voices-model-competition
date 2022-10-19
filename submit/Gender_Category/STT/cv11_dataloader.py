@@ -58,7 +58,7 @@ df_test= pd.read_csv("../data/commonvoice11/annotation/dataset_1/test.csv")
 df_train= pd.read_csv("../data/commonvoice11/annotation/dataset_1/train.csv")
 df_dev=df_dev[['path','sentence']]
 df_test=df_test[['path','sentence']]
-df_train=df_train[['path','sentence']]
+df_train=df_train[['path','sentence']] 
 # # converting df file into csv
 
 df_dev.to_csv('./data_prep/df_dev.csv',index=False) 

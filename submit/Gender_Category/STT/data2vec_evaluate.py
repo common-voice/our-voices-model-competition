@@ -70,7 +70,7 @@ class Torch_Speech_Service:
         # load pretrained processor and model
         print("Initializing model ...")
         self.processor = Wav2Vec2Processor.from_pretrained(
-            "./models/processor" ####
+            "./setup/processor" ####
         )
 
         # Choose Model
@@ -218,7 +218,7 @@ def compare(label, pred):
 NUM_WORKERS = 4
 # data2vec
 model_path = ""#new_model_path
-lm_path = "./models/newmm_4gram.bin"
+lm_path = "./setup/newmm_4gram.bin"
 
 
 speech_service = Torch_Speech_Service(model_path, lm_path, "cuda")

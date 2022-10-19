@@ -54,7 +54,7 @@ mixed_test = mixed_test.map(remove_special_characters).map(clean_batch).map(th_t
 
 from transformers import Wav2Vec2Processor
 
-processor = Wav2Vec2Processor.from_pretrained("./models/processor")
+processor = Wav2Vec2Processor.from_pretrained("./setup/processor")
 
 import torchaudio
 
@@ -92,7 +92,7 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Union
 # import augment
 import sys
-sys.path.append("./models/WavAugment") 
+sys.path.append("./setup/WavAugment") 
 import augment
 
 @dataclass
