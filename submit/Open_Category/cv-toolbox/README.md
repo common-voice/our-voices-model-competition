@@ -27,9 +27,11 @@ So, we need tooling specific for Common Voice, to fix possible problems and fill
 
 ## Suggested Toolbox and Workflow
 
-This tentative diagram shows the tools in the suggested toolbox and workflow.
+This tentative diagram shows the tools in the suggested toolbox and workflow (sorry for the art, I didn't like it either, but its powerpoint).
 
-[DIAGRAM]
+![workflow-flat](https://user-images.githubusercontent.com/8849617/196834673-05e110cf-b9aa-4df1-b3f2-a79c09a89eaa.png)
+
+Legent: Dark Blue-Released, Blue-WIP, Grey-Not started, Yellow-Data & Dataflow
 
 ## Project Status
 
