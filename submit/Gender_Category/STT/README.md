@@ -1,7 +1,7 @@
 ## STT finetune 
  
 Thank you for visiting our work to access our STT model. There are 2 options for you.
- - First, If you want to reproduce our work, just follow the Setup and Model Training section to retrain the base model.
+ - First, if you want to reproduce our work, just follow the Setup and Model Training section to retrain the base model.
  - Second, for those who just want to evaluate our trained models, you can simply download models and follow the evaluation part to get the result.csv file.
 
 ### Setup
@@ -61,11 +61,12 @@ bash ./load_models.sh
 <a href="https://drive.google.com/drive/folders/10DZLSO6ftUzZlvfme2FMbUIpH2ZZoYvS?usp=sharing">load model</a>
 
 Model after upsampling training set:
+Data upsampling by applying our gender classification model to identify genders for "not-filling" class.
 
-- trained with added 2nd dataset (balance ratio between female & male) 
+- trained with the 2nd dataset including upsampling data (balance ratio between female & male) 
 <a href="https://drive.google.com/drive/folders/1nsyl3VLo76DIRNg0Zrrrvy_o4QYlUtXJ?usp=sharing">load model</a>
 
-- trained with added 3rd dataset (balance ratio between female & male with speaking same sentence)
+- trained with the 3rd dataset including upsampling data (balance ratio between female & male with speaking same sentence)
 <a href="https://drive.google.com/drive/folders/1lBu9JD-_cQOBjsN747ElV-kAsAhR6rD6?usp=sharing">load model</a>
 
 
