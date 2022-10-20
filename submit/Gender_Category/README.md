@@ -37,4 +37,13 @@ To evaluate our project, please perform each step in the following order:
 
 Please noted that to reproduce our work, it is required to download and preprocess datasets. Visit `./data/scripts/`. Run `load_commonvoice11.sh` to download Commonvoice11 dataset and `load_thai_ser.sh` to download Thai-SER dataset.
  
-
+## Setup
+It is recommended to execute these commands before inferencing our repo.
+```console
+cd ./gender_classification
+bash ./setup.sh
+```
+```console
+cd ./STT
+bash ./setup.sh
+```
