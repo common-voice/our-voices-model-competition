@@ -45,7 +45,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
   | Epoch | WER | Artifact version | Download checkpoint |
   |---|---|---|---|
   | 311 | 0.0703 |73|[Get from releases](https://github.com/dkakaie/our-voices-model-competition/releases/tag/v0.1)|
-  | 402 | 0.0599 |86|To be released|
+  | 428 | 0.0594 |88|To be released|
 
 - Results on a subset of [Asosoft speech corpus](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) at ***epoch 311***. The full dataset contains 72 sentences recorded by 20 females and 25 males being 3240 audio recordings from various topics. Alpha and Beta parameters for LM were tuned using [Optuna](https://github.com/optuna/optuna) for 1000 runs each. (beams=50)
 
@@ -82,7 +82,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - LM boosting results using two KenLM models are provided. A char KenLM model I trained on [Asosoft text corpus large version](https://github.com/AsoSoft/AsoSoft-Text-Corpus) weighting 31MB and one prepared for news articles from Rudaw. Both models are o=5.
 
-- Training was done using a single RTX 3090 (batch size=64) for about 2 days and still ongoing.
+- Training was done using a single RTX 3090 (batch size=64) for about 3 days.
 
 - Kurdish is phonetically consistent. This might have helped the network learn faster. Given the results and small dataset used, this can be a good starting point for future Kurdish STT work.
 
