@@ -47,7 +47,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
   | 311 | 0.0703 |73|[Get from releases](https://github.com/dkakaie/our-voices-model-competition/releases/tag/v0.1)|
   | 402 | 0.0599 |86|To be released|
 
-- Results on [Asosoft speech corpus](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) at ***epoch 311***. Alpha and Beta parameters for LM were tuned using [Optuna](https://github.com/optuna/optuna) for 1000 runs each.
+- Results on a subset of [Asosoft speech corpus](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) at ***epoch 311***. The full dataset contains 72 sentences recorded by 20 females and 25 males being 3240 audio recordings from various topics. Alpha and Beta parameters for LM were tuned using [Optuna](https://github.com/optuna/optuna) for 1000 runs each. (beams=50)
 
   |Decoder|Metric|LM|Distance|Alpha|Beta|
   |---|---|---|---|---|---|
@@ -70,7 +70,7 @@ Kurdish language has two major dialects, Sorani (Central Kurdish) and Kurmanji (
 
 - All validated.tsv files have been used. first 80% of files used for train and the remaining 20% for validation. Download my splits from releases [here](https://github.com/dkakaie/our-voices-model-competition) or prepare yours.
 
-- Unfortunately CV8-11 contains non standard Kurdish text which needed to be corrected prior to training. The most problematic one being U+06D5 instead of U+0647. To this end I have used [Asosoft library](https://github.com/AsoSoft/AsoSoft-Library) to normalize the sentences. [Abdulhadi](https://github.com/hadihaji) provided some tricks which seem to have corrected almost all errors. (Thanks!)
+- Unfortunately CV8-11 contains non standard Kurdish text which needed to be corrected prior to training. The most problematic one being U+0647 instead of U+06D5. To this end I have used [Asosoft library](https://github.com/AsoSoft/AsoSoft-Library) to normalize the sentences. [Abdulhadi](https://github.com/hadihaji) provided some tricks which seem to have corrected almost all errors. (Thanks!)
 
 - Asosoft has released [a subset of their internal dataset](https://github.com/AsoSoft/AsoSoft-Speech-Corpus) for public use. I have tested the final model on this.
 
