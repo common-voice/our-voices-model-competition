@@ -61,6 +61,7 @@ bash ./load_models.sh
 <a href="https://drive.google.com/drive/folders/10DZLSO6ftUzZlvfme2FMbUIpH2ZZoYvS?usp=sharing">load model</a>
 
 Model after upsampling training set:
+
 Data upsampling by applying our gender classification model to identify genders for "not-filling" class.
 
 - trained with the 2nd dataset including upsampling data (balance ratio between female & male) 
