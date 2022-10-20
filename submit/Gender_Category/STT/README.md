@@ -2,7 +2,7 @@
  
 Thank you for visiting our work to access our STT model. There are 2 options for you.
  - First, If you want to reproduce our work, just follow the Setup and Model Training section to retrain the base model.
- - Secord, for those who just want to evaluate our trained models, you can simply download models and follow the evaluation part to get the result.csv file.
+ - Second, for those who just want to evaluate our trained models, you can simply download models and follow the evaluation part to get the result.csv file.
 
 ### Setup
 
@@ -47,7 +47,7 @@ abs_path_to_clips = "../data/commonvoice11/clips"
 ### Evaluation
 #
 
-For our trained models can be download below or run this script  to automatically download all model:
+For our trained models can be downloaded below or run this script  to automatically download all models:
 ```
 bash ./load_models.sh
 ```
