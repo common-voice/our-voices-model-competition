@@ -97,3 +97,7 @@ As I presented the algorithm to Common Voice in a separate process, I do not inc
 ### License
 
 AGPL 3.0
+
+### Promo Video
+
+[Watch](https://drive.google.com/file/d/1lG9JwLmy2q9kSieiLgFwctxFF04S-WDe/view?usp=sharing)
