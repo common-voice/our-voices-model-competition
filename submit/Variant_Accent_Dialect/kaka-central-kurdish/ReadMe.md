@@ -108,7 +108,7 @@ then
 You'll get a prettytable with results.
 
 # GUI interface
-A .NET port is in early beta enabling users to transcribe wav and mp3 files as well as try the live transcription feature. The whole application is portable, less than 25MB and has no dependency other than .NET framework which is already shipped with Microsoft Windows installations.
+A .NET port is in early beta enabling users to transcribe wav and mp3 files as well as try the live transcription feature. The whole application is portable, less than 25MB and has no runtime dependency other than .NET framework which is already shipped with Microsoft Windows installations.
 <p align="center">
   <img src="https://github.com/dkakaie/our-voices-model-competition/blob/main/submit/Variant_Accent_Dialect/kaka-central-kurdish/kspeech.png?raw=true" />
 </p>
