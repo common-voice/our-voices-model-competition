@@ -28,6 +28,7 @@ See Also
 EncoderClassifier: https://github.com/speechbrain/speechbrain/blob/develop/speechbrain/pretrained/interfaces.py#L823
 
 - Inference
+
 To inference the pretrained model from our team, execute the following commands
 ```py
 audio_path = "path/to/audio.wav" # Path to audio file, Support only .wav format with 16kHz
