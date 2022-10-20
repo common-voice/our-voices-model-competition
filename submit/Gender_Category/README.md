@@ -27,7 +27,10 @@ To evaluate our project, please perform each step in the following order:
 
 1. Understand the overall study
   * open the notebook "main.ipynb"
-  * You expected to see 1. Dataset analysis based on gender distribution 2. Dataset preparation for ASR model training 3. Model performance evaluation of STT model and Gender classifier which reported in WER and CER for STT and accuracy for gender classifier.
+  * You expected to see 
+      1. Dataset analysis based on gender distribution 
+      2. Dataset preparation for ASR model training 
+      3. Model performance evaluation of STT model and Gender classifier which reported in WER and CER for STT and accuracy for gender classifier.
   
 2. Reproduce our STT model
   * To reproduce our STT model please visit `./STT`. Inside this directory, you can find the `README.md` file containing the steps to reproduce the STT model.
