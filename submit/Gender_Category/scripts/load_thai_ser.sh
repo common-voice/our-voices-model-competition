@@ -26,5 +26,5 @@ cd ..
 python ../scripts/preprocess.py --ds_root="./thai_ser/raw" --dst_root="./thai_ser/clips/preprocess/wav_file"
 
 echo "\n DONE \n"
-echo "All datasets used in this repository are processed and stored in /submit/Gender_Category/data"
-echo "For Thai-SER: /submit/Gender_Category/data/thai_ser"
+echo "All datasets used in this project are processed and stored in /submit/Gender_Category/data"
+echo "Data for gender classification: /submit/Gender_Category/data/thai_ser"
