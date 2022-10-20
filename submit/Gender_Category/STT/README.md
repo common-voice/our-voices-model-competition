@@ -60,7 +60,7 @@ bash ./load_models.sh
 - trained with the 3rd dataset (balance ratio between female & male with speaking same sentence) 
 <a href="https://drive.google.com/drive/folders/10DZLSO6ftUzZlvfme2FMbUIpH2ZZoYvS?usp=sharing">load model</a>
 
-Model after upsampling training set:
+#Model after upsampling training set:
 
 Data upsampling by applying our gender classification model to identify genders for "not-filling" class.
 
