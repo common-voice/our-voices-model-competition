@@ -90,7 +90,7 @@ audio_paths = [
               ]
 
 ```
-- Output of this  `data2vec_evaluate.py` is .csv file with WER and CER score per reccord, which you can easily group by gender to see the final results.
+- Output of this  `data2vec_evaluate.py` is .csv file with WER and CER score per record. You can group by gender to see the final results.
 
 
 
