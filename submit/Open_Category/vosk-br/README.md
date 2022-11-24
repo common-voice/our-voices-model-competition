@@ -1,5 +1,9 @@
 # A VOSK model for the Breton language
 
+We present here the methodology and the results of an effort to build a STT model for the Breton language using Kaldi framework.
+The models were build using the whole 2 hours of MCV11 training set. We obtained a WER of 52.7% with the addition of an external text corpus parsed from Wikipedia dumps.
+For comparison purposes, another STT model that we trained on 16hours of data from various sources (MCV7 validated set included) is linked at the end of the article. This added data gave an overall WER reduction of 30%.
+
 
 ## Goal and motivation
 
