@@ -1,0 +1,343 @@
+# Gwenedeg
+àr	war
+é	o
+éc'h	oc'h
+àrnezhe	warnezhe
+diàr	diwar
+
+
+# Unvaniañ
+yaouankik	yaouankig
+kantvet	kantved
+hanterkantved	hanterkantvet
+ugentved	ugentvet
+ty	ti
+moutik	moutig
+stokholm	Stockholm
+anezhe	anezho
+hirie	hiriv
+goût	gouzout
+evid	evit
+
+
+# Fr to Br
+office	ofis
+musique	muzik
+
+
+# Fazioù Common voice
+c'hoazhin	c'hoarzhin
+million	milion
+choari	c'hoari
+bezaén	bezañ
+hanterkanvedenn	hanterkantvedenn
+brezhonek	brezhoneg
+erwann	Erwan
+nebuet	nebeut
+france	Frañs
+peseut	peseurt
+vitale	vital
+techout	tec'hout
+ne reomp nemer sentiñ	ne reomp nemet sentiñ
+er borioù pell	er broioù pell
+aozadennn	aozadenn
+emcihañs	emichañs
+vrummenn	vrumenn
+skinwell	skinwel
+migon	mignon
+taski	taksi
+ecowatt	eko watt
+c'houlzma	c'houlz ma
+eo be tlakaet	eo bet lakaet
+ao	aotrou
+dim	dimezell
+aeoc'h	aesoc'h
+triugentved	triugentvet
+maoc'h	emaoc'h
+maomp	emaomp
+penaoz	penaos
+dilec'hiadennoù	dilerc'hiadennoù
+ac'hanoch	ac'hanoc'h
+c'whi	c'hwi
+mille 	mil 
+chwi	c'hwi
+ar smic	ar SMIC
+eit	evit
+evt	evit
+vbeethoven	Beethoven
+skriviñ	skrivañ
+warchoazh	warc'hoazh
+llaer	laer
+achu	echu
+skzuizh	skuizh
+bernn	benn
+sonedagoù	sonadegoù
+genoc'h	ganeoc'h
+emezoc ’ h	emezoc'h
+lenann	lenan
+oar ke lenn	oar ket lenn
+choant	c'hoant
+R B I	RBI
+gulennet	goulennet
+klanv	klañv
+enañ	ennañ
+garom	garomp
+neus	n'eus
+meus	m'eus
+M eus	m'eus
+a rpaourkaezh	ar paourkaezh
+½	hanter
+Petr a	petra
+I.V. 	itron Varia 
+dwb	diwar benn
+s.o. 	sellet ouzh 
+Dime Square	*Dime *Square
+Microsoft Corporation	Microsoft *Corporation
+ar Mille-Clubs	ar *Mille *Clubs
+Local Hero	*Local *Hero
+enoet	enoeet
+Alliance Française	*Alliance *Française
+eizvedenn	eizhvedenn
+aluletez	alumetez
+dishoñjal	disoñjal
+tonnenn	tonenn
+kaondaonet	kondaonet
+unnan	unan
+c'houzhout	c'houzout
+Outlook dija	*Outlook dija
+a-bernn	a-benn
+dd'ar	d'ar
+e plis ar	e plij ar
+diw wech	div wech
+gwaneoc'h	ganeoc'h
+dilhad sa sec'hañ	dilhad da sec'hañ
+kentañ 'r bloaz	kentañ ar bloaz
+hegaziñ	hegasiñ
+hardiz	hardizh
+No vo ket	ne vo ket
+db.	diwar benn
+gt Pzd	gant prezidant
+dilamour	dilabour
+brasenn	blasenn
+
+
+# Anvioù
+marie	Mari
+stéphan	Stefan
+catherine	Katrin
+philippe	Filip
+christian	Kristian
+helen	Elen
+hélène	Elen
+helena	Elena
+huelgoat	Uhelgoad
+kambodjia	Kambodja
+émile	Emil
+maría	Maria
+yannick	Yannig
+
+
+télégramme	telegram
+nozvat	noz vat
+aotroù	aotrou
+jug	chug
+moneizh	moneiz
+grenv	greñv
+aman	amañ
+dañvezioù	danvezioù
+dañvez	danvez
+emsalc'h	emzalc'h
+stañk	stank
+avañtur	avantur
+seitekved	seitekvet
+èl	evel
+vel	evel
+gete	gante
+#gante	ganto
+gouvezet	gouezet
+awalc'h	a-walc'h
+araok	a-raok
+marmoused	marmouzed
+diagnostics	diagnostiks
+marc'hatmatoc'h	marc'hadmatoc'h
+chigago	chicago
+toud	tout
+siezhvet	seizhvet
+c'homlec'h	chomlec'h
+neizhañ	neizhiañ
+choulz 	 c'houlz
+choant 	c'hoant 
+virgulen	virgulenn
+founnus	fonnus
+vit	evit
+vidon	evidon
+dishenvel	disheñvel
+adkemmeret	adkemeret
+gwann	gwan
+laret	lâret
+brezoneg	brezhoneg
+vousc'hoarz	vousc'hoarzh
+vousc'hoarzin	vousc'hoarzhin
+
+arru	erru
+be'h	bec'h
+pa'z	p'az
+pa'n	p'an
+pa'm	p'am
+na'm	n'am
+ne'm	n'em
+ne'z	n'ez
+ma'm	m'am
+me'm	m'em
+#me 'm eus	me'm eus
+ 'm eus	 m'eus
+ 'm oa	 m'oa
+'moa 	m'oa 
+ 'noa 	 n'oa 
+
+bzh	BZH
+www	WWW
+m2	metrad karrez
+%	dregant
+cl	santilitr
+ml	mililitr
+cm	santimetr
+km	kilometr
+
+II	daou
+III	tri
+IV	pevar
+VI	c'hwec'h
+VII	seizh
+VIII	eizh
+IX	nav
+XVII	seizh
+XIII	trizek
+
+1añ	kentañ
+IVe	pevare
+Vvet	pempvet
+VIvet	c'hwec'hvet
+VIIvet	seizhvet
+VIIIvet	eizhvet
+IXvet	navet
+Xvet	dekvet
+XIIvet	daouzekvet
+XVIIvet	seitekvet
+XVIIIvet	triwec'hvet
+XXvet	ugentvet
+
+5	pemp
+6	c'hwec'h
+7	seizh
+8	eizh
+9	nav
+10	dek
+11	unnek
+12	daouzek
+13	trizek
+14	pevarzek
+15	pemzek
+16	c'hwezek
+17	seitek
+18	triwec'h
+19	naontek
+20	ugent
+21	un warn ugent
+23	tri warn ugent
+29	nav warn ugent
+30	tregont
+40	daou ugent
+50	hanter-kant
+60	tri ugent
+70	dek ha tri ugent
+80	pevar ugent
+90	dek ha pevar ugent
+100	kant
+120	kant ugent
+180	kant pevar ugent
+150	kant hanter kant
+200	daou c'hant
+250	daou c'hant hanter kant
+300	tri c'hant
+400	pevar c'hant
+500	pemp kant
+600	c'hwec'h kant
+700	seizh kant
+800	eizh kant
+900	nav c'hant
+000	mil
+1000	mil
+1780	mil seizh kant pevar ugent
+1788	mil seizh kant eizh ha pevar ugent
+1792	mil seizh kant daouzek ha pevar ugent
+1793	mil seizh kant trizek ha pevar ugent
+1808	mil eizh kant eizh
+1822	mil eizh kant daou warn ugent
+1829	mil eizh kant nav warn ugent
+1839	mil eizh kant nav ha tregont
+1840	mil eizh kant daou ugent
+1846	mil eizh kant c'hwec'h ha daou ugent
+1861	mil eizh kant un ha tri ugent
+1870	mil eizh kant dek ha tri ugent
+1905	mil nav c'hant pemp
+1907	mil nav c'hant seizh
+1910	mil nav c'hant dek
+1912	mil nav c'hant daouzek
+1913	mil nav c'hant trizek
+1914	mil nav c'hant pevarzek
+1915	mil nav c'hant pemzek
+1916	mil nav c'hant c'hwezek
+1917	mil nav c'hant seitek
+1918	mil nav c'hant triwec'h
+1920	mil nav c'hant ugent
+1930	mil nav c'hant tregont
+1932	mil nav c'hant daou ha tregont
+1936	mil nav c'hant c'hwec'h ha tregont
+1940	mil nav c'hant daou ugent
+1943	mil nav c'hant tri ha daou ugent
+1945	mil nav c'hant pemp ha daou ugent
+1946	mil nav c'hant c'hwec'h ha daou ugent
+1947	mil nav c'hant seizh ha daou ugent
+1950	mil nav c'hant hanter kant
+1956	mil nav c'hant c'hwec'h hag hanter kant
+1960	mil nav c'hant tri ugent
+1968	mil nav c'hant eizh ha tri ugent
+1970	mil nav c'hant dek ha tri ugent
+1975	mil nav c'hant pemzek ha tri ugent
+1976	mil nav c'hant c'hwezek ha tri ugent
+1977	mil nav c'hant seitek ha tri ugent
+1980	mil nav c'hant pevar ugent
+1983	mil nav c'hant tri ha pevar ugent
+1984	mil nav c'hant pevar ha pevar ugent
+1990	mil nav c'hant dek ha pevar ugent
+1991	mil nav c'hant unnek ha pevar ugent
+1994	mil nav c'hant pevarzek ha pevar ugent
+1995	mil nav c'hant pemzek ha pevar ugent
+1996	mil nav c'hant c'hwezek ha pevar ugent
+1997	mil nav c'hant seitek ha pevar ugent
+1999	mil nav c'hant naontek ha pevar ugent
+2000	daou vil
+2001	daou vil unan
+2002	daou vil daou
+2003	daou vil tri
+2004	daou vil pevar
+2005	daou vil pemp
+2006	daou vil c'hwec'h
+2007	daou vil seizh
+2008	daou vil eizh
+2009	daou vil nav
+2010	daou vil dek
+2011	daou vil unnek
+2012	daou vil daouzek
+2013	daou vil trizek
+2014	daou vil pevarzek
+2015	daou vil pemzek
+2016	daou vil c'hwezek
+2017	daou vil seitek
+2018	daou vil triwec'h
+2019	daou vil naontek
+2020	daou vil ugent
+2021	daou vil un warn ugent
+2022	daou vil daou warn ugent
+2024	daou vil pevar warn ugent
